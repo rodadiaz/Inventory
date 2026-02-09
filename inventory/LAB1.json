@@ -1,0 +1,68 @@
+{
+    "collectedAtUtc":  "2026-02-09T20:17:40.1723714Z",
+    "device":  {
+                   "uuid":  "E1F0ABF5-561C-4E5A-BE53-97F7443CA3D9",
+                   "manufacturer":  "Microsoft Corporation",
+                   "domain":  "WORKGROUP",
+                   "serial":  "7096-1621-3984-1564-2534-4015-80",
+                   "ramGB":  10.59,
+                   "hostname":  "LAB1",
+                   "model":  "Virtual Machine"
+               },
+    "os":  {
+               "arch":  "64 bits",
+               "lastBoot":  "07/02/2026 13:26:36",
+               "name":  "Microsoft Windows Server 2019 Standard",
+               "version":  "10.0.17763",
+               "build":  "17763"
+           },
+    "cpu":  [
+                {
+                    "maxMhz":  2304,
+                    "name":  "Intel(R) Core(TM) i7-10610U CPU @ 1.80GHz",
+                    "cores":  2,
+                    "logical":  4
+                }
+            ],
+    "storage":  [
+                    {
+                        "freeGB":  5.25,
+                        "sizeGB":  99.4,
+                        "fs":  "NTFS",
+                        "deviceId":  "C:",
+                        "volumeName":  ""
+                    },
+                    {
+                        "freeGB":  291.62,
+                        "sizeGB":  299.98,
+                        "fs":  "NTFS",
+                        "deviceId":  "D:",
+                        "volumeName":  "Data"
+                    }
+                ],
+    "network":  [
+                    {
+                        "subnet":  [
+                                       "255.255.240.0",
+                                       "64"
+                                   ],
+                        "description":  "Microsoft Hyper-V Network Adapter #3",
+                        "gateway":  [
+                                        "172.27.128.1"
+                                    ],
+                        "mac":  "00:15:5D:64:18:06",
+                        "ip":  [
+                                   "172.27.143.179",
+                                   "fe80::4f04:d651:ee4e:332a"
+                               ],
+                        "dhcpEnabled":  true,
+                        "dns":  [
+                                    "172.27.128.1"
+                                ]
+                    }
+                ],
+    "roles":  [
+                  "IIS",
+                  "SQLServer"
+              ]
+}
