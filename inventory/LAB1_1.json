@@ -1,11 +1,11 @@
 {
-    "collectedAtUtc":  "2026-02-10T17:54:04.3311493Z",
+    "collectedAtUtc":  "2026-02-10T22:39:52.7459985Z",
     "device":  {
                    "uuid":  "E1F0ABF5-561C-4E5A-BE53-97F7443CA3D9",
                    "manufacturer":  "Microsoft Corporation",
                    "domain":  "WORKGROUP",
                    "serial":  "7096-1621-3984-1564-2534-4015-80",
-                   "ramGB":  11.65,
+                   "ramGB":  11.1,
                    "hostname":  "LAB1",
                    "model":  "Virtual Machine"
                },
@@ -30,10 +30,10 @@
                         "volumeName":  "",
                         "fs":  "NTFS",
                         "totalGB":  99.4,
-                        "usedGB":  94.69,
-                        "freeGB":  4.71,
-                        "percentUsed":  95.26,
-                        "percentFree":  4.74,
+                        "usedGB":  94.49,
+                        "freeGB":  4.91,
+                        "percentUsed":  95.06,
+                        "percentFree":  4.94,
                         "percentAvail":  100
                     },
                     {
@@ -66,25 +66,6 @@
                         "dhcpEnabled":  true,
                         "dns":  [
                                     "172.27.128.1"
-                                ]
-                    },
-                    {
-                        "subnet":  [
-                                       "255.255.255.128",
-                                       "64"
-                                   ],
-                        "description":  "TAP-Windows Adapter V9 for OpenVPN Connect",
-                        "gateway":  [
-                                        null
-                                    ],
-                        "mac":  "00:FF:EB:CD:F9:4D",
-                        "ip":  [
-                                   "192.168.115.2",
-                                   "fe80::22a1:9755:d29:5d27"
-                               ],
-                        "dhcpEnabled":  false,
-                        "dns":  [
-                                    null
                                 ]
                     }
                 ],
@@ -271,24 +252,24 @@
                        },
     "capacityVsUsage":  {
                             "cpu":  {
-                                        "percentUsed":  33,
+                                        "percentUsed":  2,
                                         "percentAvailable":  100,
-                                        "collectedAtUtc":  "2026-02-10T17:54:09.5540305Z"
+                                        "collectedAtUtc":  "2026-02-10T22:39:53.7790707Z"
                                     },
                             "ram":  {
-                                        "totalGB":  11.65,
-                                        "usedGB":  7.24,
-                                        "freeGB":  4.41,
-                                        "percentUsed":  62.14,
-                                        "percentFree":  37.86,
+                                        "totalGB":  11.1,
+                                        "usedGB":  4.23,
+                                        "freeGB":  6.87,
+                                        "percentUsed":  38.13,
+                                        "percentFree":  61.87,
                                         "percentAvail":  100,
-                                        "collectedAtUtc":  "2026-02-10T17:54:09.6100322Z"
+                                        "collectedAtUtc":  "2026-02-10T22:39:53.8147705Z"
                                     },
                             "diskSummary":  {
                                                 "totalGB":  399.38,
-                                                "usedGB":  103.05,
-                                                "freeGB":  296.33,
-                                                "percentUsed":  25.8,
+                                                "usedGB":  102.85,
+                                                "freeGB":  296.53,
+                                                "percentUsed":  25.75,
                                                 "percentAvail":  100
                                             }
                         }
