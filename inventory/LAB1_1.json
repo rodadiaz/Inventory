@@ -1,11 +1,11 @@
 {
-    "collectedAtUtc":  "2026-02-10T22:39:52.7459985Z",
+    "collectedAtUtc":  "2026-02-11T02:56:50.5814600Z",
     "device":  {
                    "uuid":  "E1F0ABF5-561C-4E5A-BE53-97F7443CA3D9",
                    "manufacturer":  "Microsoft Corporation",
                    "domain":  "WORKGROUP",
                    "serial":  "7096-1621-3984-1564-2534-4015-80",
-                   "ramGB":  11.1,
+                   "ramGB":  4.7,
                    "hostname":  "LAB1",
                    "model":  "Virtual Machine"
                },
@@ -30,10 +30,10 @@
                         "volumeName":  "",
                         "fs":  "NTFS",
                         "totalGB":  99.4,
-                        "usedGB":  94.49,
-                        "freeGB":  4.91,
-                        "percentUsed":  95.06,
-                        "percentFree":  4.94,
+                        "usedGB":  93.77,
+                        "freeGB":  5.62,
+                        "percentUsed":  94.34,
+                        "percentFree":  5.66,
                         "percentAvail":  100
                     },
                     {
@@ -75,112 +75,16 @@
               ],
     "thirdPartyServices":  [
                                {
-                                   "name":  "agent_ovpnconnect",
-                                   "displayName":  "OpenVPN Agent agent_ovpnconnect",
+                                   "name":  "ovpnhelper_service",
+                                   "displayName":  "OpenVPN Connect Helper Service",
                                    "state":  "Running",
                                    "startMode":  "Auto",
                                    "startName":  "LocalSystem",
-                                   "pathName":  "\"C:\\Program Files\\OpenVPN Connect\\agent_ovpnconnect.exe\"",
-                                   "exePath":  "C:\\Program Files\\OpenVPN Connect\\agent_ovpnconnect.exe",
+                                   "pathName":  "\"C:\\Program Files\\OpenVPN Connect\\ovpnhelper_service.exe\"",
+                                   "exePath":  "C:\\Program Files\\OpenVPN Connect\\ovpnhelper_service.exe",
                                    "company":  null,
                                    "product":  null,
                                    "version":  null
-                               },
-                               {
-                                   "name":  "CosmosUpdater",
-                                   "displayName":  "CosmosUpdater",
-                                   "state":  "Running",
-                                   "startMode":  "Manual",
-                                   "startName":  "LocalSystem",
-                                   "pathName":  "\"C:\\Program Files\\Chaos\\Cosmos\\cbservice.exe\" updater",
-                                   "exePath":  "C:\\Program Files\\Chaos\\Cosmos\\cbservice.exe",
-                                   "company":  "ChaosGroup",
-                                   "product":  "Chaos Cosmos Browser",
-                                   "version":  "2025.05.28-543606"
-                               },
-                               {
-                                   "name":  "EPWD",
-                                   "displayName":  "Check Point Endpoint Client Watchdog",
-                                   "state":  "Running",
-                                   "startMode":  "Auto",
-                                   "startName":  "LocalSystem",
-                                   "pathName":  "\"C:\\Program Files (x86)\\CheckPoint\\Endpoint Connect\\Watchdog\\EPWD.exe\"",
-                                   "exePath":  "C:\\Program Files (x86)\\CheckPoint\\Endpoint Connect\\Watchdog\\EPWD.exe",
-                                   "company":  "Check Point Software Technologies Ltd.",
-                                   "product":  "End Point Security R80",
-                                   "version":  "868650002"
-                               },
-                               {
-                                   "name":  "FA_Scheduler",
-                                   "displayName":  "FortiClient VPN Service Scheduler",
-                                   "state":  "Running",
-                                   "startMode":  "Auto",
-                                   "startName":  "LocalSystem",
-                                   "pathName":  "\"C:\\Program Files\\Fortinet\\FortiClient\\scheduler.exe\"",
-                                   "exePath":  "C:\\Program Files\\Fortinet\\FortiClient\\scheduler.exe",
-                                   "company":  "Fortinet Inc.",
-                                   "product":  "FortiClient Scheduler",
-                                   "version":  "7.4.3.1790"
-                               },
-                               {
-                                   "name":  "GoogleChromeElevationService",
-                                   "displayName":  "Google Chrome Elevation Service (GoogleChromeElevationService)",
-                                   "state":  "Stopped",
-                                   "startMode":  "Manual",
-                                   "startName":  "LocalSystem",
-                                   "pathName":  "\"C:\\Program Files\\Google\\Chrome\\Application\\144.0.7559.133\\elevation_service.exe\"",
-                                   "exePath":  "C:\\Program Files\\Google\\Chrome\\Application\\144.0.7559.133\\elevation_service.exe",
-                                   "company":  "Google LLC",
-                                   "product":  "Google Chrome",
-                                   "version":  "144.0.7559.133"
-                               },
-                               {
-                                   "name":  "GoogleUpdaterInternalService144.0.7547.0",
-                                   "displayName":  "Servicio interno de la herramienta de actualización de Google (GoogleUpdaterInternalService144.0.7547.0)",
-                                   "state":  "Stopped",
-                                   "startMode":  "Auto",
-                                   "startName":  "LocalSystem",
-                                   "pathName":  "\"C:\\Program Files (x86)\\Google\\GoogleUpdater\\144.0.7547.0\\updater.exe\" --system --windows-service --service=update-internal",
-                                   "exePath":  "C:\\Program Files (x86)\\Google\\GoogleUpdater\\144.0.7547.0\\updater.exe",
-                                   "company":  "Google LLC",
-                                   "product":  "Google Updater (x64)",
-                                   "version":  "144.0.7547.0"
-                               },
-                               {
-                                   "name":  "GoogleUpdaterService144.0.7547.0",
-                                   "displayName":  "Servicio de herramienta de actualización de Google (GoogleUpdaterService144.0.7547.0)",
-                                   "state":  "Stopped",
-                                   "startMode":  "Auto",
-                                   "startName":  "LocalSystem",
-                                   "pathName":  "\"C:\\Program Files (x86)\\Google\\GoogleUpdater\\144.0.7547.0\\updater.exe\" --system --windows-service --service=update",
-                                   "exePath":  "C:\\Program Files (x86)\\Google\\GoogleUpdater\\144.0.7547.0\\updater.exe",
-                                   "company":  "Google LLC",
-                                   "product":  "Google Updater (x64)",
-                                   "version":  "144.0.7547.0"
-                               },
-                               {
-                                   "name":  "gupdate",
-                                   "displayName":  "Servicio de Google Update (gupdate)",
-                                   "state":  "Stopped",
-                                   "startMode":  "Auto",
-                                   "startName":  "LocalSystem",
-                                   "pathName":  "\"C:\\Program Files (x86)\\Google\\Update\\GoogleUpdate.exe\" /svc",
-                                   "exePath":  "C:\\Program Files (x86)\\Google\\Update\\GoogleUpdate.exe",
-                                   "company":  "Google LLC",
-                                   "product":  "Google Updater (x64)",
-                                   "version":  "144.0.7547.0"
-                               },
-                               {
-                                   "name":  "gupdatem",
-                                   "displayName":  "Servicio de Google Update (gupdatem)",
-                                   "state":  "Stopped",
-                                   "startMode":  "Manual",
-                                   "startName":  "LocalSystem",
-                                   "pathName":  "\"C:\\Program Files (x86)\\Google\\Update\\GoogleUpdate.exe\" /medsvc",
-                                   "exePath":  "C:\\Program Files (x86)\\Google\\Update\\GoogleUpdate.exe",
-                                   "company":  "Google LLC",
-                                   "product":  "Google Updater (x64)",
-                                   "version":  "144.0.7547.0"
                                },
                                {
                                    "name":  "NWSAPAutoWorkstationUpdateSvc",
@@ -195,16 +99,16 @@
                                    "version":  "9, 0, 106, 0"
                                },
                                {
-                                   "name":  "ovpnhelper_service",
-                                   "displayName":  "OpenVPN Connect Helper Service",
-                                   "state":  "Running",
-                                   "startMode":  "Auto",
+                                   "name":  "gupdatem",
+                                   "displayName":  "Servicio de Google Update (gupdatem)",
+                                   "state":  "Stopped",
+                                   "startMode":  "Manual",
                                    "startName":  "LocalSystem",
-                                   "pathName":  "\"C:\\Program Files\\OpenVPN Connect\\ovpnhelper_service.exe\"",
-                                   "exePath":  "C:\\Program Files\\OpenVPN Connect\\ovpnhelper_service.exe",
-                                   "company":  null,
-                                   "product":  null,
-                                   "version":  null
+                                   "pathName":  "\"C:\\Program Files (x86)\\Google\\Update\\GoogleUpdate.exe\" /medsvc",
+                                   "exePath":  "C:\\Program Files (x86)\\Google\\Update\\GoogleUpdate.exe",
+                                   "company":  "Google LLC",
+                                   "product":  "Google Updater (x64)",
+                                   "version":  "144.0.7547.0"
                                },
                                {
                                    "name":  "TracSrvWrapper",
@@ -219,16 +123,16 @@
                                    "version":  "5.0"
                                },
                                {
-                                   "name":  "USACARS_API_K",
-                                   "displayName":  "USACARS_API_K",
+                                   "name":  "CMDBAgent",
+                                   "displayName":  "CMDB Agent (Inventory -\u003e GitHub)",
                                    "state":  "Running",
                                    "startMode":  "Auto",
                                    "startName":  "LocalSystem",
-                                   "pathName":  "C:\\Tools\\nssm\\nssm.exe",
-                                   "exePath":  "C:\\Tools\\nssm\\nssm.exe",
+                                   "pathName":  "C:\\CMDB\\CMDBAgentService.exe C:\\CMDB\\cmdb-worker.ps1 1800000 C:\\CMDB\\cmdb-agent.log",
+                                   "exePath":  "C:\\CMDB\\CMDBAgentService.exe",
                                    "company":  "",
-                                   "product":  "NSSM 64-bit",
-                                   "version":  "2.24"
+                                   "product":  "",
+                                   "version":  "0.0.0.0"
                                },
                                {
                                    "name":  "wgsslvpnsrc",
@@ -241,6 +145,114 @@
                                    "company":  null,
                                    "product":  null,
                                    "version":  null
+                               },
+                               {
+                                   "name":  "USACARS_API_K",
+                                   "displayName":  "USACARS_API_K",
+                                   "state":  "Running",
+                                   "startMode":  "Auto",
+                                   "startName":  "LocalSystem",
+                                   "pathName":  "C:\\Tools\\nssm\\nssm.exe",
+                                   "exePath":  "C:\\Tools\\nssm\\nssm.exe",
+                                   "company":  "",
+                                   "product":  "NSSM 64-bit",
+                                   "version":  "2.24"
+                               },
+                               {
+                                   "name":  "gupdate",
+                                   "displayName":  "Servicio de Google Update (gupdate)",
+                                   "state":  "Stopped",
+                                   "startMode":  "Auto",
+                                   "startName":  "LocalSystem",
+                                   "pathName":  "\"C:\\Program Files (x86)\\Google\\Update\\GoogleUpdate.exe\" /svc",
+                                   "exePath":  "C:\\Program Files (x86)\\Google\\Update\\GoogleUpdate.exe",
+                                   "company":  "Google LLC",
+                                   "product":  "Google Updater (x64)",
+                                   "version":  "144.0.7547.0"
+                               },
+                               {
+                                   "name":  "EPWD",
+                                   "displayName":  "Check Point Endpoint Client Watchdog",
+                                   "state":  "Running",
+                                   "startMode":  "Auto",
+                                   "startName":  "LocalSystem",
+                                   "pathName":  "\"C:\\Program Files (x86)\\CheckPoint\\Endpoint Connect\\Watchdog\\EPWD.exe\"",
+                                   "exePath":  "C:\\Program Files (x86)\\CheckPoint\\Endpoint Connect\\Watchdog\\EPWD.exe",
+                                   "company":  "Check Point Software Technologies Ltd.",
+                                   "product":  "End Point Security R80",
+                                   "version":  "868650002"
+                               },
+                               {
+                                   "name":  "CosmosUpdater",
+                                   "displayName":  "CosmosUpdater",
+                                   "state":  "Running",
+                                   "startMode":  "Manual",
+                                   "startName":  "LocalSystem",
+                                   "pathName":  "\"C:\\Program Files\\Chaos\\Cosmos\\cbservice.exe\" updater",
+                                   "exePath":  "C:\\Program Files\\Chaos\\Cosmos\\cbservice.exe",
+                                   "company":  "ChaosGroup",
+                                   "product":  "Chaos Cosmos Browser",
+                                   "version":  "2025.05.28-543606"
+                               },
+                               {
+                                   "name":  "agent_ovpnconnect",
+                                   "displayName":  "OpenVPN Agent agent_ovpnconnect",
+                                   "state":  "Running",
+                                   "startMode":  "Auto",
+                                   "startName":  "LocalSystem",
+                                   "pathName":  "\"C:\\Program Files\\OpenVPN Connect\\agent_ovpnconnect.exe\"",
+                                   "exePath":  "C:\\Program Files\\OpenVPN Connect\\agent_ovpnconnect.exe",
+                                   "company":  null,
+                                   "product":  null,
+                                   "version":  null
+                               },
+                               {
+                                   "name":  "FA_Scheduler",
+                                   "displayName":  "FortiClient VPN Service Scheduler",
+                                   "state":  "Running",
+                                   "startMode":  "Auto",
+                                   "startName":  "LocalSystem",
+                                   "pathName":  "\"C:\\Program Files\\Fortinet\\FortiClient\\scheduler.exe\"",
+                                   "exePath":  "C:\\Program Files\\Fortinet\\FortiClient\\scheduler.exe",
+                                   "company":  "Fortinet Inc.",
+                                   "product":  "FortiClient Scheduler",
+                                   "version":  "7.4.3.1790"
+                               },
+                               {
+                                   "name":  "GoogleUpdaterService144.0.7547.0",
+                                   "displayName":  "Servicio de herramienta de actualización de Google (GoogleUpdaterService144.0.7547.0)",
+                                   "state":  "Stopped",
+                                   "startMode":  "Auto",
+                                   "startName":  "LocalSystem",
+                                   "pathName":  "\"C:\\Program Files (x86)\\Google\\GoogleUpdater\\144.0.7547.0\\updater.exe\" --system --windows-service --service=update",
+                                   "exePath":  "C:\\Program Files (x86)\\Google\\GoogleUpdater\\144.0.7547.0\\updater.exe",
+                                   "company":  "Google LLC",
+                                   "product":  "Google Updater (x64)",
+                                   "version":  "144.0.7547.0"
+                               },
+                               {
+                                   "name":  "GoogleUpdaterInternalService144.0.7547.0",
+                                   "displayName":  "Servicio interno de la herramienta de actualización de Google (GoogleUpdaterInternalService144.0.7547.0)",
+                                   "state":  "Stopped",
+                                   "startMode":  "Auto",
+                                   "startName":  "LocalSystem",
+                                   "pathName":  "\"C:\\Program Files (x86)\\Google\\GoogleUpdater\\144.0.7547.0\\updater.exe\" --system --windows-service --service=update-internal",
+                                   "exePath":  "C:\\Program Files (x86)\\Google\\GoogleUpdater\\144.0.7547.0\\updater.exe",
+                                   "company":  "Google LLC",
+                                   "product":  "Google Updater (x64)",
+                                   "version":  "144.0.7547.0"
+                               },
+                               {
+                                   "name":  "GoogleChromeElevationService",
+                                   "displayName":  "Google Chrome Elevation Service (GoogleChromeElevationService)",
+                                   "state":  "Stopped",
+                                   "startMode":  "Manual",
+                                   "startName":  "LocalSystem",
+                                   "pathName":  "\"C:\\Program Files\\Google\\Chrome\\Application\\144.0.7559.133\\elevation_service.exe\"",
+                                   "exePath":  "C:\\Program Files\\Google\\Chrome\\Application\\144.0.7559.133\\elevation_service.exe",
+                                   "company":  "Google LLC",
+                                   "product":  "Google Chrome",
+                                   "version":  "144.0.7559.133"
                                }
                            ],
     "virtualization":  {
@@ -254,22 +266,22 @@
                             "cpu":  {
                                         "percentUsed":  2,
                                         "percentAvailable":  100,
-                                        "collectedAtUtc":  "2026-02-10T22:39:53.7790707Z"
+                                        "collectedAtUtc":  "2026-02-11T02:56:54.9748527Z"
                                     },
                             "ram":  {
-                                        "totalGB":  11.1,
-                                        "usedGB":  4.23,
-                                        "freeGB":  6.87,
-                                        "percentUsed":  38.13,
-                                        "percentFree":  61.87,
+                                        "totalGB":  4.7,
+                                        "usedGB":  3.15,
+                                        "freeGB":  1.55,
+                                        "percentUsed":  67.07,
+                                        "percentFree":  32.93,
                                         "percentAvail":  100,
-                                        "collectedAtUtc":  "2026-02-10T22:39:53.8147705Z"
+                                        "collectedAtUtc":  "2026-02-11T02:56:55.0215953Z"
                                     },
                             "diskSummary":  {
                                                 "totalGB":  399.38,
-                                                "usedGB":  102.85,
-                                                "freeGB":  296.53,
-                                                "percentUsed":  25.75,
+                                                "usedGB":  102.13,
+                                                "freeGB":  297.24,
+                                                "percentUsed":  25.57,
                                                 "percentAvail":  100
                                             }
                         }
