@@ -1,11 +1,11 @@
 {
-    "collectedAtUtc":  "2026-02-10T22:56:47.8304069Z",
+    "collectedAtUtc":  "2026-02-11T03:56:47.0180708Z",
     "device":  {
                    "uuid":  "E1F0ABF5-561C-4E5A-BE53-97F7443CA3D9",
                    "manufacturer":  "Microsoft Corporation",
                    "domain":  "WORKGROUP",
                    "serial":  "7096-1621-3984-1564-2534-4015-80",
-                   "ramGB":  7.14,
+                   "ramGB":  4.71,
                    "hostname":  "LAB1",
                    "model":  "Virtual Machine"
                },
@@ -30,10 +30,10 @@
                         "volumeName":  "",
                         "fs":  "NTFS",
                         "totalGB":  99.4,
-                        "usedGB":  94.31,
-                        "freeGB":  5.09,
-                        "percentUsed":  94.88,
-                        "percentFree":  5.12,
+                        "usedGB":  93.78,
+                        "freeGB":  5.62,
+                        "percentUsed":  94.34,
+                        "percentFree":  5.66,
                         "percentAvail":  100
                     },
                     {
@@ -125,7 +125,7 @@
                                {
                                    "name":  "CMDBAgent",
                                    "displayName":  "CMDB Agent (Inventory -\u003e GitHub)",
-                                   "state":  "Start Pending",
+                                   "state":  "Running",
                                    "startMode":  "Auto",
                                    "startName":  "LocalSystem",
                                    "pathName":  "C:\\CMDB\\CMDBAgentService.exe C:\\CMDB\\cmdb-worker.ps1 1800000 C:\\CMDB\\cmdb-agent.log",
@@ -266,22 +266,22 @@
                             "cpu":  {
                                         "percentUsed":  0,
                                         "percentAvailable":  100,
-                                        "collectedAtUtc":  "2026-02-10T22:56:48.9927967Z"
+                                        "collectedAtUtc":  "2026-02-11T03:56:50.4113857Z"
                                     },
                             "ram":  {
-                                        "totalGB":  7.14,
-                                        "usedGB":  3.93,
-                                        "freeGB":  3.21,
-                                        "percentUsed":  55.03,
-                                        "percentFree":  44.97,
+                                        "totalGB":  4.71,
+                                        "usedGB":  3.14,
+                                        "freeGB":  1.57,
+                                        "percentUsed":  66.72,
+                                        "percentFree":  33.28,
                                         "percentAvail":  100,
-                                        "collectedAtUtc":  "2026-02-10T22:56:49.0343092Z"
+                                        "collectedAtUtc":  "2026-02-11T03:56:50.4785111Z"
                                     },
                             "diskSummary":  {
                                                 "totalGB":  399.38,
-                                                "usedGB":  102.67,
-                                                "freeGB":  296.71,
-                                                "percentUsed":  25.71,
+                                                "usedGB":  102.14,
+                                                "freeGB":  297.24,
+                                                "percentUsed":  25.57,
                                                 "percentAvail":  100
                                             }
                         }
