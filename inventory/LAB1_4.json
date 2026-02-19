@@ -1,11 +1,11 @@
 {
-    "collectedAtUtc":  "2026-02-19T00:17:20.5483009Z",
+    "collectedAtUtc":  "2026-02-19T05:17:20.4470682Z",
     "device":  {
                    "uuid":  "E1F0ABF5-561C-4E5A-BE53-97F7443CA3D9",
                    "manufacturer":  "Microsoft Corporation",
                    "domain":  "WORKGROUP",
                    "serial":  "7096-1621-3984-1564-2534-4015-80",
-                   "ramGB":  8.29,
+                   "ramGB":  10.2,
                    "hostname":  "LAB1",
                    "model":  "Virtual Machine"
                },
@@ -32,8 +32,8 @@
                         "totalGB":  99.4,
                         "usedGB":  97.17,
                         "freeGB":  2.23,
-                        "percentUsed":  97.75,
-                        "percentFree":  2.25,
+                        "percentUsed":  97.76,
+                        "percentFree":  2.24,
                         "percentAvail":  100
                     },
                     {
@@ -267,11 +267,11 @@
                                    "state":  "Stopped",
                                    "startMode":  "Manual",
                                    "startName":  "LocalSystem",
-                                   "pathName":  "\"C:\\Program Files\\Google\\Chrome\\Application\\145.0.7632.75\\elevation_service.exe\"",
-                                   "exePath":  "C:\\Program Files\\Google\\Chrome\\Application\\145.0.7632.75\\elevation_service.exe",
+                                   "pathName":  "\"C:\\Program Files\\Google\\Chrome\\Application\\145.0.7632.109\\elevation_service.exe\"",
+                                   "exePath":  "C:\\Program Files\\Google\\Chrome\\Application\\145.0.7632.109\\elevation_service.exe",
                                    "company":  "Google LLC",
                                    "product":  "Google Chrome",
-                                   "version":  "145.0.7632.75"
+                                   "version":  "145.0.7632.109"
                                }
                            ],
     "virtualization":  {
@@ -285,16 +285,16 @@
                             "cpu":  {
                                         "percentUsed":  0,
                                         "percentAvailable":  100,
-                                        "collectedAtUtc":  "2026-02-19T00:17:23.9589971Z"
+                                        "collectedAtUtc":  "2026-02-19T05:17:23.8371040Z"
                                     },
                             "ram":  {
-                                        "totalGB":  8.29,
-                                        "usedGB":  6.05,
-                                        "freeGB":  2.24,
-                                        "percentUsed":  72.95,
-                                        "percentFree":  27.05,
+                                        "totalGB":  10.2,
+                                        "usedGB":  6,
+                                        "freeGB":  4.2,
+                                        "percentUsed":  58.84,
+                                        "percentFree":  41.16,
                                         "percentAvail":  100,
-                                        "collectedAtUtc":  "2026-02-19T00:17:24.0193794Z"
+                                        "collectedAtUtc":  "2026-02-19T05:17:23.8945187Z"
                                     },
                             "diskSummary":  {
                                                 "totalGB":  399.38,
