@@ -1,17 +1,17 @@
 {
-    "collectedAtUtc":  "2026-02-19T16:47:20.7504678Z",
+    "collectedAtUtc":  "2026-02-20T22:55:38.2586427Z",
     "device":  {
                    "uuid":  "E1F0ABF5-561C-4E5A-BE53-97F7443CA3D9",
                    "manufacturer":  "Microsoft Corporation",
                    "domain":  "WORKGROUP",
                    "serial":  "7096-1621-3984-1564-2534-4015-80",
-                   "ramGB":  10.25,
+                   "ramGB":  8,
                    "hostname":  "LAB1",
                    "model":  "Virtual Machine"
                },
     "os":  {
                "arch":  "64 bits",
-               "lastBoot":  "09/02/2026 20:04:07",
+               "lastBoot":  "20/02/2026 16:55:18",
                "name":  "Microsoft Windows Server 2019 Standard",
                "version":  "10.0.17763",
                "build":  "17763"
@@ -30,10 +30,10 @@
                         "volumeName":  "",
                         "fs":  "NTFS",
                         "totalGB":  99.4,
-                        "usedGB":  97.18,
-                        "freeGB":  2.22,
-                        "percentUsed":  97.77,
-                        "percentFree":  2.23,
+                        "usedGB":  93.38,
+                        "freeGB":  6.02,
+                        "percentUsed":  93.95,
+                        "percentFree":  6.05,
                         "percentAvail":  100
                     },
                     {
@@ -67,25 +67,6 @@
                         "dns":  [
                                     "172.23.96.1"
                                 ]
-                    },
-                    {
-                        "subnet":  [
-                                       "255.255.255.128",
-                                       "64"
-                                   ],
-                        "description":  "TAP-Windows Adapter V9 for OpenVPN Connect",
-                        "gateway":  [
-                                        null
-                                    ],
-                        "mac":  "00:FF:EB:CD:F9:4D",
-                        "ip":  [
-                                   "192.168.115.3",
-                                   "fe80::22a1:9755:d29:5d27"
-                               ],
-                        "dhcpEnabled":  false,
-                        "dns":  [
-                                    null
-                                ]
                     }
                 ],
     "roles":  [
@@ -94,21 +75,9 @@
               ],
     "thirdPartyServices":  [
                                {
-                                   "name":  "ovpnhelper_service",
-                                   "displayName":  "OpenVPN Connect Helper Service",
-                                   "state":  "Running",
-                                   "startMode":  "Auto",
-                                   "startName":  "LocalSystem",
-                                   "pathName":  "\"C:\\Program Files\\OpenVPN Connect\\ovpnhelper_service.exe\"",
-                                   "exePath":  "C:\\Program Files\\OpenVPN Connect\\ovpnhelper_service.exe",
-                                   "company":  null,
-                                   "product":  null,
-                                   "version":  null
-                               },
-                               {
                                    "name":  "NWSAPAutoWorkstationUpdateSvc",
                                    "displayName":  "SAPSetup Automatic Workstation Update Service",
-                                   "state":  "Running",
+                                   "state":  "Stopped",
                                    "startMode":  "Auto",
                                    "startName":  "LocalSystem",
                                    "pathName":  "\"C:\\Program Files (x86)\\SAP\\SAPsetup\\Setup\\Updater\\NwSapAutoWorkstationUpdateService.exe\"",
@@ -130,28 +99,28 @@
                                    "version":  "144.0.7547.0"
                                },
                                {
-                                   "name":  "TracSrvWrapper",
-                                   "displayName":  "Check Point Endpoint Security VPN",
-                                   "state":  "Running",
+                                   "name":  "gupdate",
+                                   "displayName":  "Servicio de Google Update (gupdate)",
+                                   "state":  "Stopped",
                                    "startMode":  "Auto",
                                    "startName":  "LocalSystem",
-                                   "pathName":  "\"C:\\Program Files (x86)\\CheckPoint\\Endpoint Connect\\TracSrvWrapper.exe\"",
-                                   "exePath":  "C:\\Program Files (x86)\\CheckPoint\\Endpoint Connect\\TracSrvWrapper.exe",
-                                   "company":  "Check Point Software Technologies",
-                                   "product":  "trac",
-                                   "version":  "5.0"
+                                   "pathName":  "\"C:\\Program Files (x86)\\Google\\Update\\GoogleUpdate.exe\" /svc",
+                                   "exePath":  "C:\\Program Files (x86)\\Google\\Update\\GoogleUpdate.exe",
+                                   "company":  "Google LLC",
+                                   "product":  "Google Updater (x64)",
+                                   "version":  "144.0.7547.0"
                                },
                                {
-                                   "name":  "CMDBAgent",
-                                   "displayName":  "CMDB Agent (Inventory -\u003e GitHub)",
+                                   "name":  "ovpnhelper_service",
+                                   "displayName":  "OpenVPN Connect Helper Service",
                                    "state":  "Running",
                                    "startMode":  "Auto",
                                    "startName":  "LocalSystem",
-                                   "pathName":  "C:\\CMDB\\CMDBAgentService.exe C:\\CMDB\\cmdb-worker.ps1 1800000 C:\\CMDB\\cmdb-agent.log",
-                                   "exePath":  "C:\\CMDB\\CMDBAgentService.exe",
-                                   "company":  "",
-                                   "product":  "",
-                                   "version":  "0.0.0.0"
+                                   "pathName":  "\"C:\\Program Files\\OpenVPN Connect\\ovpnhelper_service.exe\"",
+                                   "exePath":  "C:\\Program Files\\OpenVPN Connect\\ovpnhelper_service.exe",
+                                   "company":  null,
+                                   "product":  null,
+                                   "version":  null
                                },
                                {
                                    "name":  "wgsslvpnsrc",
@@ -178,33 +147,33 @@
                                    "version":  "2.24"
                                },
                                {
-                                   "name":  "gupdate",
-                                   "displayName":  "Servicio de Google Update (gupdate)",
-                                   "state":  "Stopped",
+                                   "name":  "TracSrvWrapper",
+                                   "displayName":  "Check Point Endpoint Security VPN",
+                                   "state":  "Running",
                                    "startMode":  "Auto",
                                    "startName":  "LocalSystem",
-                                   "pathName":  "\"C:\\Program Files (x86)\\Google\\Update\\GoogleUpdate.exe\" /svc",
-                                   "exePath":  "C:\\Program Files (x86)\\Google\\Update\\GoogleUpdate.exe",
+                                   "pathName":  "\"C:\\Program Files (x86)\\CheckPoint\\Endpoint Connect\\TracSrvWrapper.exe\"",
+                                   "exePath":  "C:\\Program Files (x86)\\CheckPoint\\Endpoint Connect\\TracSrvWrapper.exe",
+                                   "company":  "Check Point Software Technologies",
+                                   "product":  "trac",
+                                   "version":  "5.0"
+                               },
+                               {
+                                   "name":  "GoogleUpdaterService144.0.7547.0",
+                                   "displayName":  "Servicio de herramienta de actualización de Google (GoogleUpdaterService144.0.7547.0)",
+                                   "state":  "Running",
+                                   "startMode":  "Auto",
+                                   "startName":  "LocalSystem",
+                                   "pathName":  "\"C:\\Program Files (x86)\\Google\\GoogleUpdater\\144.0.7547.0\\updater.exe\" --system --windows-service --service=update",
+                                   "exePath":  "C:\\Program Files (x86)\\Google\\GoogleUpdater\\144.0.7547.0\\updater.exe",
                                    "company":  "Google LLC",
                                    "product":  "Google Updater (x64)",
                                    "version":  "144.0.7547.0"
                                },
                                {
-                                   "name":  "EPWD",
-                                   "displayName":  "Check Point Endpoint Client Watchdog",
-                                   "state":  "Running",
-                                   "startMode":  "Auto",
-                                   "startName":  "LocalSystem",
-                                   "pathName":  "\"C:\\Program Files (x86)\\CheckPoint\\Endpoint Connect\\Watchdog\\EPWD.exe\"",
-                                   "exePath":  "C:\\Program Files (x86)\\CheckPoint\\Endpoint Connect\\Watchdog\\EPWD.exe",
-                                   "company":  "Check Point Software Technologies Ltd.",
-                                   "product":  "End Point Security R80",
-                                   "version":  "868650002"
-                               },
-                               {
                                    "name":  "CosmosUpdater",
                                    "displayName":  "CosmosUpdater",
-                                   "state":  "Running",
+                                   "state":  "Stopped",
                                    "startMode":  "Manual",
                                    "startName":  "LocalSystem",
                                    "pathName":  "\"C:\\Program Files\\Chaos\\Cosmos\\cbservice.exe\" updater",
@@ -212,6 +181,18 @@
                                    "company":  "ChaosGroup",
                                    "product":  "Chaos Cosmos Browser",
                                    "version":  "2025.05.28-543606"
+                               },
+                               {
+                                   "name":  "CMDBAgent",
+                                   "displayName":  "CMDB Agent (Inventory -\u003e GitHub)",
+                                   "state":  "Start Pending",
+                                   "startMode":  "Auto",
+                                   "startName":  "LocalSystem",
+                                   "pathName":  "C:\\CMDB\\CMDBAgentService.exe C:\\CMDB\\cmdb-worker.ps1 1800000 C:\\CMDB\\cmdb-agent.log",
+                                   "exePath":  "C:\\CMDB\\CMDBAgentService.exe",
+                                   "company":  "",
+                                   "product":  "",
+                                   "version":  "0.0.0.0"
                                },
                                {
                                    "name":  "agent_ovpnconnect",
@@ -226,33 +207,21 @@
                                    "version":  null
                                },
                                {
-                                   "name":  "FA_Scheduler",
-                                   "displayName":  "FortiClient VPN Service Scheduler",
+                                   "name":  "EPWD",
+                                   "displayName":  "Check Point Endpoint Client Watchdog",
                                    "state":  "Running",
                                    "startMode":  "Auto",
                                    "startName":  "LocalSystem",
-                                   "pathName":  "\"C:\\Program Files\\Fortinet\\FortiClient\\scheduler.exe\"",
-                                   "exePath":  "C:\\Program Files\\Fortinet\\FortiClient\\scheduler.exe",
-                                   "company":  "Fortinet Inc.",
-                                   "product":  "FortiClient Scheduler",
-                                   "version":  "7.4.3.1790"
-                               },
-                               {
-                                   "name":  "GoogleUpdaterService144.0.7547.0",
-                                   "displayName":  "Servicio de herramienta de actualización de Google (GoogleUpdaterService144.0.7547.0)",
-                                   "state":  "Stopped",
-                                   "startMode":  "Auto",
-                                   "startName":  "LocalSystem",
-                                   "pathName":  "\"C:\\Program Files (x86)\\Google\\GoogleUpdater\\144.0.7547.0\\updater.exe\" --system --windows-service --service=update",
-                                   "exePath":  "C:\\Program Files (x86)\\Google\\GoogleUpdater\\144.0.7547.0\\updater.exe",
-                                   "company":  "Google LLC",
-                                   "product":  "Google Updater (x64)",
-                                   "version":  "144.0.7547.0"
+                                   "pathName":  "\"C:\\Program Files (x86)\\CheckPoint\\Endpoint Connect\\Watchdog\\EPWD.exe\"",
+                                   "exePath":  "C:\\Program Files (x86)\\CheckPoint\\Endpoint Connect\\Watchdog\\EPWD.exe",
+                                   "company":  "Check Point Software Technologies Ltd.",
+                                   "product":  "End Point Security R80",
+                                   "version":  "868650002"
                                },
                                {
                                    "name":  "GoogleUpdaterInternalService144.0.7547.0",
                                    "displayName":  "Servicio interno de la herramienta de actualización de Google (GoogleUpdaterInternalService144.0.7547.0)",
-                                   "state":  "Stopped",
+                                   "state":  "Running",
                                    "startMode":  "Auto",
                                    "startName":  "LocalSystem",
                                    "pathName":  "\"C:\\Program Files (x86)\\Google\\GoogleUpdater\\144.0.7547.0\\updater.exe\" --system --windows-service --service=update-internal",
@@ -272,6 +241,18 @@
                                    "company":  "Google LLC",
                                    "product":  "Google Chrome",
                                    "version":  "145.0.7632.109"
+                               },
+                               {
+                                   "name":  "FA_Scheduler",
+                                   "displayName":  "FortiClient VPN Service Scheduler",
+                                   "state":  "Running",
+                                   "startMode":  "Auto",
+                                   "startName":  "LocalSystem",
+                                   "pathName":  "\"C:\\Program Files\\Fortinet\\FortiClient\\scheduler.exe\"",
+                                   "exePath":  "C:\\Program Files\\Fortinet\\FortiClient\\scheduler.exe",
+                                   "company":  "Fortinet Inc.",
+                                   "product":  "FortiClient Scheduler",
+                                   "version":  "7.4.3.1790"
                                }
                            ],
     "virtualization":  {
@@ -283,24 +264,24 @@
                        },
     "capacityVsUsage":  {
                             "cpu":  {
-                                        "percentUsed":  0,
+                                        "percentUsed":  41,
                                         "percentAvailable":  100,
-                                        "collectedAtUtc":  "2026-02-19T16:47:24.0575913Z"
+                                        "collectedAtUtc":  "2026-02-20T22:55:44.4929924Z"
                                     },
                             "ram":  {
-                                        "totalGB":  10.25,
-                                        "usedGB":  6.09,
-                                        "freeGB":  4.16,
-                                        "percentUsed":  59.43,
-                                        "percentFree":  40.57,
+                                        "totalGB":  8,
+                                        "usedGB":  1.98,
+                                        "freeGB":  6.02,
+                                        "percentUsed":  24.79,
+                                        "percentFree":  75.21,
                                         "percentAvail":  100,
-                                        "collectedAtUtc":  "2026-02-19T16:47:24.1211153Z"
+                                        "collectedAtUtc":  "2026-02-20T22:55:44.5398672Z"
                                     },
                             "diskSummary":  {
                                                 "totalGB":  399.38,
-                                                "usedGB":  105.54,
-                                                "freeGB":  293.84,
-                                                "percentUsed":  26.43,
+                                                "usedGB":  101.74,
+                                                "freeGB":  297.64,
+                                                "percentUsed":  25.47,
                                                 "percentAvail":  100
                                             }
                         }
