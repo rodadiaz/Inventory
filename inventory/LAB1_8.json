@@ -1,11 +1,11 @@
 {
-    "collectedAtUtc":  "2026-02-21T14:25:34.9714201Z",
+    "collectedAtUtc":  "2026-02-21T19:25:34.8843608Z",
     "device":  {
                    "uuid":  "E1F0ABF5-561C-4E5A-BE53-97F7443CA3D9",
                    "manufacturer":  "Microsoft Corporation",
                    "domain":  "WORKGROUP",
                    "serial":  "7096-1621-3984-1564-2534-4015-80",
-                   "ramGB":  7.5,
+                   "ramGB":  7.62,
                    "hostname":  "LAB1",
                    "model":  "Virtual Machine"
                },
@@ -30,10 +30,10 @@
                         "volumeName":  "",
                         "fs":  "NTFS",
                         "totalGB":  99.4,
-                        "usedGB":  90.97,
-                        "freeGB":  8.43,
-                        "percentUsed":  91.52,
-                        "percentFree":  8.48,
+                        "usedGB":  90.17,
+                        "freeGB":  9.23,
+                        "percentUsed":  90.71,
+                        "percentFree":  9.29,
                         "percentAvail":  100
                     },
                     {
@@ -79,7 +79,7 @@
                                     ],
                         "mac":  "00:FF:EB:CD:F9:4D",
                         "ip":  [
-                                   "192.168.115.5",
+                                   "192.168.115.4",
                                    "fe80::22a1:9755:d29:5d27"
                                ],
                         "dhcpEnabled":  false,
@@ -283,24 +283,24 @@
                        },
     "capacityVsUsage":  {
                             "cpu":  {
-                                        "percentUsed":  4,
+                                        "percentUsed":  0,
                                         "percentAvailable":  100,
-                                        "collectedAtUtc":  "2026-02-21T14:25:38.2373173Z"
+                                        "collectedAtUtc":  "2026-02-21T19:25:38.0971185Z"
                                     },
                             "ram":  {
-                                        "totalGB":  7.5,
-                                        "usedGB":  4.78,
-                                        "freeGB":  2.71,
-                                        "percentUsed":  63.79,
-                                        "percentFree":  36.21,
+                                        "totalGB":  7.62,
+                                        "usedGB":  4.88,
+                                        "freeGB":  2.74,
+                                        "percentUsed":  64.02,
+                                        "percentFree":  35.98,
                                         "percentAvail":  100,
-                                        "collectedAtUtc":  "2026-02-21T14:25:38.2842615Z"
+                                        "collectedAtUtc":  "2026-02-21T19:25:38.1611050Z"
                                     },
                             "diskSummary":  {
                                                 "totalGB":  399.38,
-                                                "usedGB":  99.33,
-                                                "freeGB":  300.05,
-                                                "percentUsed":  24.87,
+                                                "usedGB":  98.53,
+                                                "freeGB":  300.85,
+                                                "percentUsed":  24.67,
                                                 "percentAvail":  100
                                             }
                         }
