@@ -1,11 +1,11 @@
 {
-    "collectedAtUtc":  "2026-02-23T15:29:11.8270979Z",
+    "collectedAtUtc":  "2026-02-23T20:28:57.9408696Z",
     "device":  {
                    "uuid":  "E1F0ABF5-561C-4E5A-BE53-97F7443CA3D9",
                    "manufacturer":  "Microsoft Corporation",
                    "domain":  "WORKGROUP",
                    "serial":  "7096-1621-3984-1564-2534-4015-80",
-                   "ramGB":  1.56,
+                   "ramGB":  9.21,
                    "hostname":  "LAB1",
                    "model":  "Virtual Machine"
                },
@@ -30,10 +30,10 @@
                         "volumeName":  "",
                         "fs":  "NTFS",
                         "totalGB":  99.4,
-                        "usedGB":  89.82,
-                        "freeGB":  9.58,
-                        "percentUsed":  90.37,
-                        "percentFree":  9.63,
+                        "usedGB":  89.38,
+                        "freeGB":  10.02,
+                        "percentUsed":  89.92,
+                        "percentFree":  10.08,
                         "percentAvail":  100
                     },
                     {
@@ -77,7 +77,7 @@
                                {
                                    "name":  "NWSAPAutoWorkstationUpdateSvc",
                                    "displayName":  "SAPSetup Automatic Workstation Update Service",
-                                   "state":  "Stopped",
+                                   "state":  "Running",
                                    "startMode":  "Auto",
                                    "startName":  "LocalSystem",
                                    "pathName":  "\"C:\\Program Files (x86)\\SAP\\SAPsetup\\Setup\\Updater\\NwSapAutoWorkstationUpdateService.exe\"",
@@ -173,7 +173,7 @@
                                {
                                    "name":  "CosmosUpdater",
                                    "displayName":  "CosmosUpdater",
-                                   "state":  "Stopped",
+                                   "state":  "Running",
                                    "startMode":  "Manual",
                                    "startName":  "LocalSystem",
                                    "pathName":  "\"C:\\Program Files\\Chaos\\Cosmos\\cbservice.exe\" updater",
@@ -185,7 +185,7 @@
                                {
                                    "name":  "CMDBAgent",
                                    "displayName":  "CMDB Agent (Inventory -\u003e GitHub)",
-                                   "state":  "Start Pending",
+                                   "state":  "Running",
                                    "startMode":  "Auto",
                                    "startName":  "LocalSystem",
                                    "pathName":  "C:\\CMDB\\CMDBAgentService.exe C:\\CMDB\\cmdb-worker.ps1 1800000 C:\\CMDB\\cmdb-agent.log",
@@ -236,16 +236,16 @@
                                    "state":  "Stopped",
                                    "startMode":  "Manual",
                                    "startName":  "LocalSystem",
-                                   "pathName":  "\"C:\\Program Files\\Google\\Chrome\\Application\\145.0.7632.109\\elevation_service.exe\"",
-                                   "exePath":  "C:\\Program Files\\Google\\Chrome\\Application\\145.0.7632.109\\elevation_service.exe",
+                                   "pathName":  "\"C:\\Program Files\\Google\\Chrome\\Application\\145.0.7632.110\\elevation_service.exe\"",
+                                   "exePath":  "C:\\Program Files\\Google\\Chrome\\Application\\145.0.7632.110\\elevation_service.exe",
                                    "company":  "Google LLC",
                                    "product":  "Google Chrome",
-                                   "version":  "145.0.7632.109"
+                                   "version":  "145.0.7632.110"
                                },
                                {
                                    "name":  "FA_Scheduler",
                                    "displayName":  "FortiClient VPN Service Scheduler",
-                                   "state":  "Start Pending",
+                                   "state":  "Running",
                                    "startMode":  "Auto",
                                    "startName":  "LocalSystem",
                                    "pathName":  "\"C:\\Program Files\\Fortinet\\FortiClient\\scheduler.exe\"",
@@ -264,24 +264,24 @@
                        },
     "capacityVsUsage":  {
                             "cpu":  {
-                                        "percentUsed":  17,
+                                        "percentUsed":  0,
                                         "percentAvailable":  100,
-                                        "collectedAtUtc":  "2026-02-23T15:29:19.6226780Z"
+                                        "collectedAtUtc":  "2026-02-23T20:29:01.3527367Z"
                                     },
                             "ram":  {
-                                        "totalGB":  1.56,
-                                        "usedGB":  1.43,
-                                        "freeGB":  0.12,
-                                        "percentUsed":  92.2,
-                                        "percentFree":  7.8,
+                                        "totalGB":  9.21,
+                                        "usedGB":  5.46,
+                                        "freeGB":  3.75,
+                                        "percentUsed":  59.32,
+                                        "percentFree":  40.68,
                                         "percentAvail":  100,
-                                        "collectedAtUtc":  "2026-02-23T15:29:19.6695395Z"
+                                        "collectedAtUtc":  "2026-02-23T20:29:01.3988594Z"
                                     },
                             "diskSummary":  {
                                                 "totalGB":  399.38,
-                                                "usedGB":  98.18,
-                                                "freeGB":  301.2,
-                                                "percentUsed":  24.58,
+                                                "usedGB":  97.74,
+                                                "freeGB":  301.64,
+                                                "percentUsed":  24.47,
                                                 "percentAvail":  100
                                             }
                         }
