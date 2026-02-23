@@ -1,11 +1,11 @@
 {
-    "collectedAtUtc":  "2026-02-23T15:59:01.3824723Z",
+    "collectedAtUtc":  "2026-02-23T20:58:57.8382495Z",
     "device":  {
                    "uuid":  "E1F0ABF5-561C-4E5A-BE53-97F7443CA3D9",
                    "manufacturer":  "Microsoft Corporation",
                    "domain":  "WORKGROUP",
                    "serial":  "7096-1621-3984-1564-2534-4015-80",
-                   "ramGB":  6.46,
+                   "ramGB":  9.21,
                    "hostname":  "LAB1",
                    "model":  "Virtual Machine"
                },
@@ -30,10 +30,10 @@
                         "volumeName":  "",
                         "fs":  "NTFS",
                         "totalGB":  99.4,
-                        "usedGB":  88.63,
-                        "freeGB":  10.77,
-                        "percentUsed":  89.16,
-                        "percentFree":  10.84,
+                        "usedGB":  89.38,
+                        "freeGB":  10.02,
+                        "percentUsed":  89.92,
+                        "percentFree":  10.08,
                         "percentAvail":  100
                     },
                     {
@@ -236,11 +236,11 @@
                                    "state":  "Stopped",
                                    "startMode":  "Manual",
                                    "startName":  "LocalSystem",
-                                   "pathName":  "\"C:\\Program Files\\Google\\Chrome\\Application\\145.0.7632.109\\elevation_service.exe\"",
-                                   "exePath":  "C:\\Program Files\\Google\\Chrome\\Application\\145.0.7632.109\\elevation_service.exe",
+                                   "pathName":  "\"C:\\Program Files\\Google\\Chrome\\Application\\145.0.7632.110\\elevation_service.exe\"",
+                                   "exePath":  "C:\\Program Files\\Google\\Chrome\\Application\\145.0.7632.110\\elevation_service.exe",
                                    "company":  "Google LLC",
                                    "product":  "Google Chrome",
-                                   "version":  "145.0.7632.109"
+                                   "version":  "145.0.7632.110"
                                },
                                {
                                    "name":  "FA_Scheduler",
@@ -264,24 +264,24 @@
                        },
     "capacityVsUsage":  {
                             "cpu":  {
-                                        "percentUsed":  0,
+                                        "percentUsed":  6,
                                         "percentAvailable":  100,
-                                        "collectedAtUtc":  "2026-02-23T15:59:05.5303988Z"
+                                        "collectedAtUtc":  "2026-02-23T20:59:01.0460329Z"
                                     },
                             "ram":  {
-                                        "totalGB":  6.46,
-                                        "usedGB":  4.5,
-                                        "freeGB":  1.96,
-                                        "percentUsed":  69.7,
-                                        "percentFree":  30.3,
+                                        "totalGB":  9.21,
+                                        "usedGB":  5.13,
+                                        "freeGB":  4.08,
+                                        "percentUsed":  55.68,
+                                        "percentFree":  44.32,
                                         "percentAvail":  100,
-                                        "collectedAtUtc":  "2026-02-23T15:59:05.5761690Z"
+                                        "collectedAtUtc":  "2026-02-23T20:59:01.0922537Z"
                                     },
                             "diskSummary":  {
                                                 "totalGB":  399.38,
-                                                "usedGB":  96.99,
-                                                "freeGB":  302.39,
-                                                "percentUsed":  24.29,
+                                                "usedGB":  97.74,
+                                                "freeGB":  301.64,
+                                                "percentUsed":  24.47,
                                                 "percentAvail":  100
                                             }
                         }
