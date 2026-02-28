@@ -1,11 +1,11 @@
 {
-    "collectedAtUtc":  "2026-02-28T02:16:22.4172434Z",
+    "collectedAtUtc":  "2026-02-28T07:16:22.6064692Z",
     "device":  {
                    "uuid":  "E1F0ABF5-561C-4E5A-BE53-97F7443CA3D9",
                    "manufacturer":  "Microsoft Corporation",
                    "domain":  "WORKGROUP",
                    "serial":  "7096-1621-3984-1564-2534-4015-80",
-                   "ramGB":  10.99,
+                   "ramGB":  10.97,
                    "hostname":  "LAB1",
                    "model":  "Virtual Machine"
                },
@@ -264,18 +264,18 @@
                        },
     "capacityVsUsage":  {
                             "cpu":  {
-                                        "percentUsed":  0,
+                                        "percentUsed":  5,
                                         "percentAvailable":  100,
-                                        "collectedAtUtc":  "2026-02-28T02:16:25.4342926Z"
+                                        "collectedAtUtc":  "2026-02-28T07:16:25.7945661Z"
                                     },
                             "ram":  {
-                                        "totalGB":  10.99,
-                                        "usedGB":  7.04,
-                                        "freeGB":  3.96,
-                                        "percentUsed":  64.01,
-                                        "percentFree":  35.99,
+                                        "totalGB":  10.97,
+                                        "usedGB":  6.92,
+                                        "freeGB":  4.06,
+                                        "percentUsed":  63.04,
+                                        "percentFree":  36.96,
                                         "percentAvail":  100,
-                                        "collectedAtUtc":  "2026-02-28T02:16:25.4866994Z"
+                                        "collectedAtUtc":  "2026-02-28T07:16:25.8409588Z"
                                     },
                             "diskSummary":  {
                                                 "totalGB":  399.38,
