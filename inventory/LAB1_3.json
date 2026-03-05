@@ -1,11 +1,11 @@
 {
-    "collectedAtUtc":  "2026-03-05T12:43:37.0644906Z",
+    "collectedAtUtc":  "2026-03-05T17:43:37.0848719Z",
     "device":  {
                    "uuid":  "E1F0ABF5-561C-4E5A-BE53-97F7443CA3D9",
                    "manufacturer":  "Microsoft Corporation",
                    "domain":  "WORKGROUP",
                    "serial":  "7096-1621-3984-1564-2534-4015-80",
-                   "ramGB":  12.45,
+                   "ramGB":  12.49,
                    "hostname":  "LAB1",
                    "model":  "Virtual Machine"
                },
@@ -266,16 +266,16 @@
                             "cpu":  {
                                         "percentUsed":  0,
                                         "percentAvailable":  100,
-                                        "collectedAtUtc":  "2026-03-05T12:43:40.2677721Z"
+                                        "collectedAtUtc":  "2026-03-05T17:43:40.2305709Z"
                                     },
                             "ram":  {
-                                        "totalGB":  12.45,
-                                        "usedGB":  6.16,
-                                        "freeGB":  6.3,
-                                        "percentUsed":  49.45,
-                                        "percentFree":  50.55,
+                                        "totalGB":  12.49,
+                                        "usedGB":  6.22,
+                                        "freeGB":  6.27,
+                                        "percentUsed":  49.79,
+                                        "percentFree":  50.21,
                                         "percentAvail":  100,
-                                        "collectedAtUtc":  "2026-03-05T12:43:40.3120024Z"
+                                        "collectedAtUtc":  "2026-03-05T17:43:40.2902136Z"
                                     },
                             "diskSummary":  {
                                                 "totalGB":  399.38,
