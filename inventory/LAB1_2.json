@@ -1,5 +1,5 @@
 {
-    "collectedAtUtc":  "2026-03-06T18:13:37.5520971Z",
+    "collectedAtUtc":  "2026-03-06T23:13:37.7080150Z",
     "device":  {
                    "uuid":  "E1F0ABF5-561C-4E5A-BE53-97F7443CA3D9",
                    "manufacturer":  "Microsoft Corporation",
@@ -32,8 +32,8 @@
                         "totalGB":  99.4,
                         "usedGB":  95.44,
                         "freeGB":  3.96,
-                        "percentUsed":  96.01,
-                        "percentFree":  3.99,
+                        "percentUsed":  96.02,
+                        "percentFree":  3.98,
                         "percentAvail":  100
                     },
                     {
@@ -266,16 +266,16 @@
                             "cpu":  {
                                         "percentUsed":  0,
                                         "percentAvailable":  100,
-                                        "collectedAtUtc":  "2026-03-06T18:13:40.6770908Z"
+                                        "collectedAtUtc":  "2026-03-06T23:13:40.7883965Z"
                                     },
                             "ram":  {
                                         "totalGB":  11.64,
-                                        "usedGB":  6.15,
-                                        "freeGB":  5.49,
-                                        "percentUsed":  52.85,
-                                        "percentFree":  47.15,
+                                        "usedGB":  6.18,
+                                        "freeGB":  5.46,
+                                        "percentUsed":  53.12,
+                                        "percentFree":  46.88,
                                         "percentAvail":  100,
-                                        "collectedAtUtc":  "2026-03-06T18:13:40.7241592Z"
+                                        "collectedAtUtc":  "2026-03-06T23:13:40.8444013Z"
                                     },
                             "diskSummary":  {
                                                 "totalGB":  399.38,
