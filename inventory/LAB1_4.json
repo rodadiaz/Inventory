@@ -1,5 +1,5 @@
 {
-    "collectedAtUtc":  "2026-03-12T21:38:05.5166099Z",
+    "collectedAtUtc":  "2026-03-13T02:38:05.5125579Z",
     "device":  {
                    "uuid":  "E1F0ABF5-561C-4E5A-BE53-97F7443CA3D9",
                    "manufacturer":  "Microsoft Corporation",
@@ -30,10 +30,10 @@
                         "volumeName":  "",
                         "fs":  "NTFS",
                         "totalGB":  99.4,
-                        "usedGB":  91.74,
-                        "freeGB":  7.66,
-                        "percentUsed":  92.3,
-                        "percentFree":  7.7,
+                        "usedGB":  91.72,
+                        "freeGB":  7.68,
+                        "percentUsed":  92.27,
+                        "percentFree":  7.73,
                         "percentAvail":  100
                     },
                     {
@@ -255,11 +255,11 @@
                                    "state":  "Stopped",
                                    "startMode":  "Manual",
                                    "startName":  "LocalSystem",
-                                   "pathName":  "\"C:\\Program Files\\Google\\Chrome\\Application\\145.0.7632.160\\elevation_service.exe\"",
-                                   "exePath":  "C:\\Program Files\\Google\\Chrome\\Application\\145.0.7632.160\\elevation_service.exe",
+                                   "pathName":  "\"C:\\Program Files\\Google\\Chrome\\Application\\145.0.7632.162\\elevation_service.exe\"",
+                                   "exePath":  "C:\\Program Files\\Google\\Chrome\\Application\\145.0.7632.162\\elevation_service.exe",
                                    "company":  "Google LLC",
                                    "product":  "Google Chrome",
-                                   "version":  "145.0.7632.160"
+                                   "version":  "145.0.7632.162"
                                },
                                {
                                    "name":  "FA_Scheduler",
@@ -283,24 +283,24 @@
                        },
     "capacityVsUsage":  {
                             "cpu":  {
-                                        "percentUsed":  4,
+                                        "percentUsed":  0,
                                         "percentAvailable":  100,
-                                        "collectedAtUtc":  "2026-03-12T21:38:08.6126717Z"
+                                        "collectedAtUtc":  "2026-03-13T02:38:08.5795115Z"
                                     },
                             "ram":  {
                                         "totalGB":  8.17,
-                                        "usedGB":  5,
-                                        "freeGB":  3.17,
-                                        "percentUsed":  61.22,
-                                        "percentFree":  38.78,
+                                        "usedGB":  4.93,
+                                        "freeGB":  3.24,
+                                        "percentUsed":  60.36,
+                                        "percentFree":  39.64,
                                         "percentAvail":  100,
-                                        "collectedAtUtc":  "2026-03-12T21:38:08.6796351Z"
+                                        "collectedAtUtc":  "2026-03-13T02:38:08.6534129Z"
                                     },
                             "diskSummary":  {
                                                 "totalGB":  399.38,
-                                                "usedGB":  104.35,
-                                                "freeGB":  295.03,
-                                                "percentUsed":  26.13,
+                                                "usedGB":  104.33,
+                                                "freeGB":  295.05,
+                                                "percentUsed":  26.12,
                                                 "percentAvail":  100
                                             }
                         }
