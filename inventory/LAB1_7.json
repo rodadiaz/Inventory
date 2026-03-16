@@ -1,11 +1,11 @@
 {
-    "collectedAtUtc":  "2026-03-16T17:09:11.3775115Z",
+    "collectedAtUtc":  "2026-03-16T22:09:11.6072481Z",
     "device":  {
                    "uuid":  "E1F0ABF5-561C-4E5A-BE53-97F7443CA3D9",
                    "manufacturer":  "Microsoft Corporation",
                    "domain":  "WORKGROUP",
                    "serial":  "7096-1621-3984-1564-2534-4015-80",
-                   "ramGB":  8.82,
+                   "ramGB":  8.85,
                    "hostname":  "LAB1",
                    "model":  "Virtual Machine"
                },
@@ -30,7 +30,7 @@
                         "volumeName":  "",
                         "fs":  "NTFS",
                         "totalGB":  99.4,
-                        "usedGB":  92.71,
+                        "usedGB":  92.7,
                         "freeGB":  6.69,
                         "percentUsed":  93.27,
                         "percentFree":  6.73,
@@ -66,25 +66,6 @@
                         "dhcpEnabled":  true,
                         "dns":  [
                                     "172.23.176.1"
-                                ]
-                    },
-                    {
-                        "subnet":  [
-                                       "255.255.255.128",
-                                       "64"
-                                   ],
-                        "description":  "TAP-Windows Adapter V9 for OpenVPN Connect",
-                        "gateway":  [
-                                        null
-                                    ],
-                        "mac":  "00:FF:EB:CD:F9:4D",
-                        "ip":  [
-                                   "192.168.115.3",
-                                   "fe80::22a1:9755:d29:5d27"
-                               ],
-                        "dhcpEnabled":  false,
-                        "dns":  [
-                                    null
                                 ]
                     }
                 ],
@@ -283,22 +264,22 @@
                        },
     "capacityVsUsage":  {
                             "cpu":  {
-                                        "percentUsed":  0,
+                                        "percentUsed":  12,
                                         "percentAvailable":  100,
-                                        "collectedAtUtc":  "2026-03-16T17:09:14.6318963Z"
+                                        "collectedAtUtc":  "2026-03-16T22:09:14.6537790Z"
                                     },
                             "ram":  {
-                                        "totalGB":  8.82,
-                                        "usedGB":  6,
-                                        "freeGB":  2.82,
-                                        "percentUsed":  68,
-                                        "percentFree":  32,
+                                        "totalGB":  8.85,
+                                        "usedGB":  6.22,
+                                        "freeGB":  2.63,
+                                        "percentUsed":  70.25,
+                                        "percentFree":  29.75,
                                         "percentAvail":  100,
-                                        "collectedAtUtc":  "2026-03-16T17:09:14.6736727Z"
+                                        "collectedAtUtc":  "2026-03-16T22:09:14.7007429Z"
                                     },
                             "diskSummary":  {
                                                 "totalGB":  399.38,
-                                                "usedGB":  105.32,
+                                                "usedGB":  105.31,
                                                 "freeGB":  294.06,
                                                 "percentUsed":  26.37,
                                                 "percentAvail":  100
