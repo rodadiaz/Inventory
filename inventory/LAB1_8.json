@@ -1,17 +1,17 @@
 {
-    "collectedAtUtc":  "2026-03-17T16:26:12.5848672Z",
+    "collectedAtUtc":  "2026-03-18T19:21:56.4121753Z",
     "device":  {
                    "uuid":  "E1F0ABF5-561C-4E5A-BE53-97F7443CA3D9",
                    "manufacturer":  "Microsoft Corporation",
                    "domain":  "WORKGROUP",
                    "serial":  "7096-1621-3984-1564-2534-4015-80",
-                   "ramGB":  10.09,
+                   "ramGB":  10.9,
                    "hostname":  "LAB1",
                    "model":  "Virtual Machine"
                },
     "os":  {
                "arch":  "64 bits",
-               "lastBoot":  "11/03/2026 12:25:57",
+               "lastBoot":  "12/03/2026 10:21:41",
                "name":  "Microsoft Windows Server 2019 Standard",
                "version":  "10.0.17763",
                "build":  "17763"
@@ -30,10 +30,10 @@
                         "volumeName":  "",
                         "fs":  "NTFS",
                         "totalGB":  99.4,
-                        "usedGB":  92.87,
-                        "freeGB":  6.53,
-                        "percentUsed":  93.43,
-                        "percentFree":  6.57,
+                        "usedGB":  93.13,
+                        "freeGB":  6.27,
+                        "percentUsed":  93.7,
+                        "percentFree":  6.3,
                         "percentAvail":  100
                     },
                     {
@@ -67,6 +67,25 @@
                         "dns":  [
                                     "172.25.64.1"
                                 ]
+                    },
+                    {
+                        "subnet":  [
+                                       "255.255.255.128",
+                                       "64"
+                                   ],
+                        "description":  "TAP-Windows Adapter V9 for OpenVPN Connect",
+                        "gateway":  [
+                                        null
+                                    ],
+                        "mac":  "00:FF:EB:CD:F9:4D",
+                        "ip":  [
+                                   "192.168.115.4",
+                                   "fe80::22a1:9755:d29:5d27"
+                               ],
+                        "dhcpEnabled":  false,
+                        "dns":  [
+                                    null
+                                ]
                     }
                 ],
     "roles":  [
@@ -75,40 +94,16 @@
               ],
     "thirdPartyServices":  [
                                {
-                                   "name":  "NWSAPAutoWorkstationUpdateSvc",
-                                   "displayName":  "SAPSetup Automatic Workstation Update Service",
+                                   "name":  "TracSrvWrapper",
+                                   "displayName":  "Check Point Endpoint Security VPN",
                                    "state":  "Running",
                                    "startMode":  "Auto",
                                    "startName":  "LocalSystem",
-                                   "pathName":  "\"C:\\Program Files (x86)\\SAP\\SAPsetup\\Setup\\Updater\\NwSapAutoWorkstationUpdateService.exe\"",
-                                   "exePath":  "C:\\Program Files (x86)\\SAP\\SAPsetup\\Setup\\Updater\\NwSapAutoWorkstationUpdateService.exe",
-                                   "company":  "SAP SE",
-                                   "product":  "SAP Front-End Setup for the Windows(R) Environment",
-                                   "version":  "9, 0, 106, 0"
-                               },
-                               {
-                                   "name":  "gupdatem",
-                                   "displayName":  "Servicio de Google Update (gupdatem)",
-                                   "state":  "Stopped",
-                                   "startMode":  "Manual",
-                                   "startName":  "LocalSystem",
-                                   "pathName":  "\"C:\\Program Files (x86)\\Google\\Update\\GoogleUpdate.exe\" /medsvc",
-                                   "exePath":  "C:\\Program Files (x86)\\Google\\Update\\GoogleUpdate.exe",
-                                   "company":  "Google LLC",
-                                   "product":  "Google Updater (x64)",
-                                   "version":  "147.0.7703.0"
-                               },
-                               {
-                                   "name":  "gupdate",
-                                   "displayName":  "Servicio de Google Update (gupdate)",
-                                   "state":  "Stopped",
-                                   "startMode":  "Auto",
-                                   "startName":  "LocalSystem",
-                                   "pathName":  "\"C:\\Program Files (x86)\\Google\\Update\\GoogleUpdate.exe\" /svc",
-                                   "exePath":  "C:\\Program Files (x86)\\Google\\Update\\GoogleUpdate.exe",
-                                   "company":  "Google LLC",
-                                   "product":  "Google Updater (x64)",
-                                   "version":  "147.0.7703.0"
+                                   "pathName":  "\"C:\\Program Files (x86)\\CheckPoint\\Endpoint Connect\\TracSrvWrapper.exe\"",
+                                   "exePath":  "C:\\Program Files (x86)\\CheckPoint\\Endpoint Connect\\TracSrvWrapper.exe",
+                                   "company":  "Check Point Software Technologies",
+                                   "product":  "trac",
+                                   "version":  "5.0"
                                },
                                {
                                    "name":  "ovpnhelper_service",
@@ -123,16 +118,16 @@
                                    "version":  null
                                },
                                {
-                                   "name":  "wgsslvpnsrc",
-                                   "displayName":  "WatchGuard SSLVPN Service",
+                                   "name":  "NWSAPAutoWorkstationUpdateSvc",
+                                   "displayName":  "SAPSetup Automatic Workstation Update Service",
                                    "state":  "Running",
                                    "startMode":  "Auto",
                                    "startName":  "LocalSystem",
-                                   "pathName":  "\"C:\\Program Files (x86)\\WatchGuard\\WatchGuard Mobile VPN with SSL\\wgsslvpnsrc.exe\"",
-                                   "exePath":  "C:\\Program Files (x86)\\WatchGuard\\WatchGuard Mobile VPN with SSL\\wgsslvpnsrc.exe",
-                                   "company":  null,
-                                   "product":  null,
-                                   "version":  null
+                                   "pathName":  "\"C:\\Program Files (x86)\\SAP\\SAPsetup\\Setup\\Updater\\NwSapAutoWorkstationUpdateService.exe\"",
+                                   "exePath":  "C:\\Program Files (x86)\\SAP\\SAPsetup\\Setup\\Updater\\NwSapAutoWorkstationUpdateService.exe",
+                                   "company":  "SAP SE",
+                                   "product":  "SAP Front-End Setup for the Windows(R) Environment",
+                                   "version":  "9, 0, 106, 0"
                                },
                                {
                                    "name":  "USACARS_API_K",
@@ -147,28 +142,52 @@
                                    "version":  "2.24"
                                },
                                {
-                                   "name":  "TracSrvWrapper",
-                                   "displayName":  "Check Point Endpoint Security VPN",
-                                   "state":  "Running",
-                                   "startMode":  "Auto",
-                                   "startName":  "LocalSystem",
-                                   "pathName":  "\"C:\\Program Files (x86)\\CheckPoint\\Endpoint Connect\\TracSrvWrapper.exe\"",
-                                   "exePath":  "C:\\Program Files (x86)\\CheckPoint\\Endpoint Connect\\TracSrvWrapper.exe",
-                                   "company":  "Check Point Software Technologies",
-                                   "product":  "trac",
-                                   "version":  "5.0"
-                               },
-                               {
-                                   "name":  "GoogleUpdaterService147.0.7703.0",
-                                   "displayName":  "Servicio de herramienta de actualización de Google (GoogleUpdaterService147.0.7703.0)",
+                                   "name":  "GoogleUpdaterService148.0.7730.0",
+                                   "displayName":  "Servicio de herramienta de actualización de Google (GoogleUpdaterService148.0.7730.0)",
                                    "state":  "Stopped",
                                    "startMode":  "Auto",
                                    "startName":  "LocalSystem",
-                                   "pathName":  "\"C:\\Program Files (x86)\\Google\\GoogleUpdater\\147.0.7703.0\\updater.exe\" --system --windows-service --service=update",
-                                   "exePath":  "C:\\Program Files (x86)\\Google\\GoogleUpdater\\147.0.7703.0\\updater.exe",
+                                   "pathName":  "\"C:\\Program Files (x86)\\Google\\GoogleUpdater\\148.0.7730.0\\updater.exe\" --system --windows-service --service=update",
+                                   "exePath":  "C:\\Program Files (x86)\\Google\\GoogleUpdater\\148.0.7730.0\\updater.exe",
                                    "company":  "Google LLC",
                                    "product":  "Google Updater (x64)",
-                                   "version":  "147.0.7703.0"
+                                   "version":  "148.0.7730.0"
+                               },
+                               {
+                                   "name":  "GoogleUpdaterInternalService148.0.7730.0",
+                                   "displayName":  "Servicio interno de la herramienta de actualización de Google (GoogleUpdaterInternalService148.0.7730.0)",
+                                   "state":  "Stopped",
+                                   "startMode":  "Auto",
+                                   "startName":  "LocalSystem",
+                                   "pathName":  "\"C:\\Program Files (x86)\\Google\\GoogleUpdater\\148.0.7730.0\\updater.exe\" --system --windows-service --service=update-internal",
+                                   "exePath":  "C:\\Program Files (x86)\\Google\\GoogleUpdater\\148.0.7730.0\\updater.exe",
+                                   "company":  "Google LLC",
+                                   "product":  "Google Updater (x64)",
+                                   "version":  "148.0.7730.0"
+                               },
+                               {
+                                   "name":  "wgsslvpnsrc",
+                                   "displayName":  "WatchGuard SSLVPN Service",
+                                   "state":  "Running",
+                                   "startMode":  "Auto",
+                                   "startName":  "LocalSystem",
+                                   "pathName":  "\"C:\\Program Files (x86)\\WatchGuard\\WatchGuard Mobile VPN with SSL\\wgsslvpnsrc.exe\"",
+                                   "exePath":  "C:\\Program Files (x86)\\WatchGuard\\WatchGuard Mobile VPN with SSL\\wgsslvpnsrc.exe",
+                                   "company":  null,
+                                   "product":  null,
+                                   "version":  null
+                               },
+                               {
+                                   "name":  "gupdatem",
+                                   "displayName":  "Servicio de Google Update (gupdatem)",
+                                   "state":  "Stopped",
+                                   "startMode":  "Manual",
+                                   "startName":  "LocalSystem",
+                                   "pathName":  "\"C:\\Program Files (x86)\\Google\\Update\\GoogleUpdate.exe\" /medsvc",
+                                   "exePath":  "C:\\Program Files (x86)\\Google\\Update\\GoogleUpdate.exe",
+                                   "company":  "Google LLC",
+                                   "product":  "Google Updater (x64)",
+                                   "version":  "148.0.7730.0"
                                },
                                {
                                    "name":  "CosmosUpdater",
@@ -219,16 +238,16 @@
                                    "version":  "868650002"
                                },
                                {
-                                   "name":  "GoogleUpdaterInternalService147.0.7703.0",
-                                   "displayName":  "Servicio interno de la herramienta de actualización de Google (GoogleUpdaterInternalService147.0.7703.0)",
+                                   "name":  "gupdate",
+                                   "displayName":  "Servicio de Google Update (gupdate)",
                                    "state":  "Stopped",
                                    "startMode":  "Auto",
                                    "startName":  "LocalSystem",
-                                   "pathName":  "\"C:\\Program Files (x86)\\Google\\GoogleUpdater\\147.0.7703.0\\updater.exe\" --system --windows-service --service=update-internal",
-                                   "exePath":  "C:\\Program Files (x86)\\Google\\GoogleUpdater\\147.0.7703.0\\updater.exe",
+                                   "pathName":  "\"C:\\Program Files (x86)\\Google\\Update\\GoogleUpdate.exe\" /svc",
+                                   "exePath":  "C:\\Program Files (x86)\\Google\\Update\\GoogleUpdate.exe",
                                    "company":  "Google LLC",
                                    "product":  "Google Updater (x64)",
-                                   "version":  "147.0.7703.0"
+                                   "version":  "148.0.7730.0"
                                },
                                {
                                    "name":  "GoogleChromeElevationService",
@@ -236,11 +255,11 @@
                                    "state":  "Stopped",
                                    "startMode":  "Manual",
                                    "startName":  "LocalSystem",
-                                   "pathName":  "\"C:\\Program Files\\Google\\Chrome\\Application\\145.0.7632.162\\elevation_service.exe\"",
-                                   "exePath":  "C:\\Program Files\\Google\\Chrome\\Application\\145.0.7632.162\\elevation_service.exe",
+                                   "pathName":  "\"C:\\Program Files\\Google\\Chrome\\Application\\146.0.7680.80\\elevation_service.exe\"",
+                                   "exePath":  "C:\\Program Files\\Google\\Chrome\\Application\\146.0.7680.80\\elevation_service.exe",
                                    "company":  "Google LLC",
                                    "product":  "Google Chrome",
-                                   "version":  "145.0.7632.162"
+                                   "version":  "146.0.7680.80"
                                },
                                {
                                    "name":  "FA_Scheduler",
@@ -264,24 +283,24 @@
                        },
     "capacityVsUsage":  {
                             "cpu":  {
-                                        "percentUsed":  1,
+                                        "percentUsed":  0,
                                         "percentAvailable":  100,
-                                        "collectedAtUtc":  "2026-03-17T16:26:15.6846213Z"
+                                        "collectedAtUtc":  "2026-03-18T19:21:59.4297501Z"
                                     },
                             "ram":  {
-                                        "totalGB":  10.09,
-                                        "usedGB":  7.25,
-                                        "freeGB":  2.84,
-                                        "percentUsed":  71.89,
-                                        "percentFree":  28.11,
+                                        "totalGB":  10.9,
+                                        "usedGB":  7.19,
+                                        "freeGB":  3.71,
+                                        "percentUsed":  65.95,
+                                        "percentFree":  34.05,
                                         "percentAvail":  100,
-                                        "collectedAtUtc":  "2026-03-17T16:26:15.7231791Z"
+                                        "collectedAtUtc":  "2026-03-18T19:21:59.4703360Z"
                                     },
                             "diskSummary":  {
                                                 "totalGB":  399.38,
-                                                "usedGB":  105.48,
-                                                "freeGB":  293.9,
-                                                "percentUsed":  26.41,
+                                                "usedGB":  105.74,
+                                                "freeGB":  293.64,
+                                                "percentUsed":  26.48,
                                                 "percentAvail":  100
                                             }
                         }
