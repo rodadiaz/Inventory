@@ -1,5 +1,5 @@
 {
-    "collectedAtUtc":  "2026-03-19T06:23:53.1860844Z",
+    "collectedAtUtc":  "2026-03-19T11:23:53.2863571Z",
     "device":  {
                    "uuid":  "E1F0ABF5-561C-4E5A-BE53-97F7443CA3D9",
                    "manufacturer":  "Microsoft Corporation",
@@ -32,8 +32,8 @@
                         "totalGB":  99.4,
                         "usedGB":  93.04,
                         "freeGB":  6.36,
-                        "percentUsed":  93.61,
-                        "percentFree":  6.39,
+                        "percentUsed":  93.6,
+                        "percentFree":  6.4,
                         "percentAvail":  100
                     },
                     {
@@ -264,18 +264,18 @@
                        },
     "capacityVsUsage":  {
                             "cpu":  {
-                                        "percentUsed":  0,
+                                        "percentUsed":  2,
                                         "percentAvailable":  100,
-                                        "collectedAtUtc":  "2026-03-19T06:23:56.1587295Z"
+                                        "collectedAtUtc":  "2026-03-19T11:23:56.2804850Z"
                                     },
                             "ram":  {
                                         "totalGB":  9.89,
-                                        "usedGB":  6,
-                                        "freeGB":  3.89,
-                                        "percentUsed":  60.67,
-                                        "percentFree":  39.33,
+                                        "usedGB":  6.08,
+                                        "freeGB":  3.81,
+                                        "percentUsed":  61.47,
+                                        "percentFree":  38.53,
                                         "percentAvail":  100,
-                                        "collectedAtUtc":  "2026-03-19T06:23:56.2164222Z"
+                                        "collectedAtUtc":  "2026-03-19T11:23:56.3336702Z"
                                     },
                             "diskSummary":  {
                                                 "totalGB":  399.38,
