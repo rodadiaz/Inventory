@@ -1,17 +1,17 @@
 {
-    "collectedAtUtc":  "2026-03-24T00:07:19.7888923Z",
+    "collectedAtUtc":  "2026-03-24T18:27:31.1734631Z",
     "device":  {
                    "uuid":  "E1F0ABF5-561C-4E5A-BE53-97F7443CA3D9",
                    "manufacturer":  "Microsoft Corporation",
                    "domain":  "WORKGROUP",
                    "serial":  "7096-1621-3984-1564-2534-4015-80",
-                   "ramGB":  7.94,
+                   "ramGB":  10.69,
                    "hostname":  "LAB1",
                    "model":  "Virtual Machine"
                },
     "os":  {
                "arch":  "64 bits",
-               "lastBoot":  "23/03/2026 8:36:45",
+               "lastBoot":  "23/03/2026 21:56:54",
                "name":  "Microsoft Windows Server 2019 Standard",
                "version":  "10.0.17763",
                "build":  "17763"
@@ -30,10 +30,10 @@
                         "volumeName":  "",
                         "fs":  "NTFS",
                         "totalGB":  99.4,
-                        "usedGB":  89.48,
-                        "freeGB":  9.92,
-                        "percentUsed":  90.02,
-                        "percentFree":  9.98,
+                        "usedGB":  90.35,
+                        "freeGB":  9.05,
+                        "percentUsed":  90.9,
+                        "percentFree":  9.1,
                         "percentAvail":  100
                     },
                     {
@@ -56,16 +56,16 @@
                                    ],
                         "description":  "Microsoft Hyper-V Network Adapter #3",
                         "gateway":  [
-                                        "172.19.144.1"
+                                        "172.31.48.1"
                                     ],
                         "mac":  "00:15:5D:64:18:06",
                         "ip":  [
-                                   "172.19.158.63",
+                                   "172.31.53.110",
                                    "fe80::4f04:d651:ee4e:332a"
                                ],
                         "dhcpEnabled":  true,
                         "dns":  [
-                                    "172.19.144.1"
+                                    "172.31.48.1"
                                 ]
                     }
                 ],
@@ -264,24 +264,24 @@
                        },
     "capacityVsUsage":  {
                             "cpu":  {
-                                        "percentUsed":  3,
+                                        "percentUsed":  9,
                                         "percentAvailable":  100,
-                                        "collectedAtUtc":  "2026-03-24T00:07:22.7104700Z"
+                                        "collectedAtUtc":  "2026-03-24T18:27:35.0324059Z"
                                     },
                             "ram":  {
-                                        "totalGB":  7.94,
-                                        "usedGB":  4.85,
-                                        "freeGB":  3.09,
-                                        "percentUsed":  61.11,
-                                        "percentFree":  38.89,
+                                        "totalGB":  10.69,
+                                        "usedGB":  6.37,
+                                        "freeGB":  4.32,
+                                        "percentUsed":  59.58,
+                                        "percentFree":  40.42,
                                         "percentAvail":  100,
-                                        "collectedAtUtc":  "2026-03-24T00:07:22.7460805Z"
+                                        "collectedAtUtc":  "2026-03-24T18:27:35.0898567Z"
                                     },
                             "diskSummary":  {
                                                 "totalGB":  399.38,
-                                                "usedGB":  102.34,
-                                                "freeGB":  297.04,
-                                                "percentUsed":  25.62,
+                                                "usedGB":  103.21,
+                                                "freeGB":  296.17,
+                                                "percentUsed":  25.84,
                                                 "percentAvail":  100
                                             }
                         }
