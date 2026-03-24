@@ -1,17 +1,17 @@
 {
-    "collectedAtUtc":  "2026-03-23T19:01:52.4693918Z",
+    "collectedAtUtc":  "2026-03-24T00:07:19.7888923Z",
     "device":  {
                    "uuid":  "E1F0ABF5-561C-4E5A-BE53-97F7443CA3D9",
                    "manufacturer":  "Microsoft Corporation",
                    "domain":  "WORKGROUP",
                    "serial":  "7096-1621-3984-1564-2534-4015-80",
-                   "ramGB":  8.39,
+                   "ramGB":  7.94,
                    "hostname":  "LAB1",
                    "model":  "Virtual Machine"
                },
     "os":  {
                "arch":  "64 bits",
-               "lastBoot":  "23/03/2026 8:31:17",
+               "lastBoot":  "23/03/2026 8:36:45",
                "name":  "Microsoft Windows Server 2019 Standard",
                "version":  "10.0.17763",
                "build":  "17763"
@@ -30,10 +30,10 @@
                         "volumeName":  "",
                         "fs":  "NTFS",
                         "totalGB":  99.4,
-                        "usedGB":  89.39,
-                        "freeGB":  10.01,
-                        "percentUsed":  89.93,
-                        "percentFree":  10.07,
+                        "usedGB":  89.48,
+                        "freeGB":  9.92,
+                        "percentUsed":  90.02,
+                        "percentFree":  9.98,
                         "percentAvail":  100
                     },
                     {
@@ -56,16 +56,16 @@
                                    ],
                         "description":  "Microsoft Hyper-V Network Adapter #3",
                         "gateway":  [
-                                        "172.26.224.1"
+                                        "172.19.144.1"
                                     ],
                         "mac":  "00:15:5D:64:18:06",
                         "ip":  [
-                                   "172.26.236.32",
+                                   "172.19.158.63",
                                    "fe80::4f04:d651:ee4e:332a"
                                ],
                         "dhcpEnabled":  true,
                         "dns":  [
-                                    "172.26.224.1"
+                                    "172.19.144.1"
                                 ]
                     }
                 ],
@@ -236,11 +236,11 @@
                                    "state":  "Stopped",
                                    "startMode":  "Manual",
                                    "startName":  "LocalSystem",
-                                   "pathName":  "\"C:\\Program Files\\Google\\Chrome\\Application\\146.0.7680.80\\elevation_service.exe\"",
-                                   "exePath":  "C:\\Program Files\\Google\\Chrome\\Application\\146.0.7680.80\\elevation_service.exe",
+                                   "pathName":  "\"C:\\Program Files\\Google\\Chrome\\Application\\146.0.7680.154\\elevation_service.exe\"",
+                                   "exePath":  "C:\\Program Files\\Google\\Chrome\\Application\\146.0.7680.154\\elevation_service.exe",
                                    "company":  "Google LLC",
                                    "product":  "Google Chrome",
-                                   "version":  "146.0.7680.80"
+                                   "version":  "146.0.7680.154"
                                },
                                {
                                    "name":  "FA_Scheduler",
@@ -264,24 +264,24 @@
                        },
     "capacityVsUsage":  {
                             "cpu":  {
-                                        "percentUsed":  32,
+                                        "percentUsed":  3,
                                         "percentAvailable":  100,
-                                        "collectedAtUtc":  "2026-03-23T19:01:55.3961374Z"
+                                        "collectedAtUtc":  "2026-03-24T00:07:22.7104700Z"
                                     },
                             "ram":  {
-                                        "totalGB":  8.39,
-                                        "usedGB":  5.04,
-                                        "freeGB":  3.35,
-                                        "percentUsed":  60.09,
-                                        "percentFree":  39.91,
+                                        "totalGB":  7.94,
+                                        "usedGB":  4.85,
+                                        "freeGB":  3.09,
+                                        "percentUsed":  61.11,
+                                        "percentFree":  38.89,
                                         "percentAvail":  100,
-                                        "collectedAtUtc":  "2026-03-23T19:01:55.4501929Z"
+                                        "collectedAtUtc":  "2026-03-24T00:07:22.7460805Z"
                                     },
                             "diskSummary":  {
                                                 "totalGB":  399.38,
-                                                "usedGB":  102.25,
-                                                "freeGB":  297.13,
-                                                "percentUsed":  25.6,
+                                                "usedGB":  102.34,
+                                                "freeGB":  297.04,
+                                                "percentUsed":  25.62,
                                                 "percentAvail":  100
                                             }
                         }
