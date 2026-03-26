@@ -1,17 +1,17 @@
 {
-    "collectedAtUtc":  "2026-03-25T20:41:45.1261134Z",
+    "collectedAtUtc":  "2026-03-26T02:07:59.2564407Z",
     "device":  {
                    "uuid":  "E1F0ABF5-561C-4E5A-BE53-97F7443CA3D9",
                    "manufacturer":  "Microsoft Corporation",
                    "domain":  "WORKGROUP",
                    "serial":  "7096-1621-3984-1564-2534-4015-80",
-                   "ramGB":  11.63,
+                   "ramGB":  6,
                    "hostname":  "LAB1",
                    "model":  "Virtual Machine"
                },
     "os":  {
                "arch":  "64 bits",
-               "lastBoot":  "24/03/2026 23:11:10",
+               "lastBoot":  "25/03/2026 15:37:52",
                "name":  "Microsoft Windows Server 2019 Standard",
                "version":  "10.0.17763",
                "build":  "17763"
@@ -30,10 +30,10 @@
                         "volumeName":  "",
                         "fs":  "NTFS",
                         "totalGB":  99.4,
-                        "usedGB":  90.29,
-                        "freeGB":  9.11,
-                        "percentUsed":  90.84,
-                        "percentFree":  9.16,
+                        "usedGB":  94.64,
+                        "freeGB":  4.76,
+                        "percentUsed":  95.21,
+                        "percentFree":  4.79,
                         "percentAvail":  100
                     },
                     {
@@ -41,10 +41,10 @@
                         "volumeName":  "Data",
                         "fs":  "NTFS",
                         "totalGB":  299.98,
-                        "usedGB":  12.86,
-                        "freeGB":  287.12,
-                        "percentUsed":  4.29,
-                        "percentFree":  95.71,
+                        "usedGB":  8.36,
+                        "freeGB":  291.62,
+                        "percentUsed":  2.79,
+                        "percentFree":  97.21,
                         "percentAvail":  100
                     }
                 ],
@@ -173,7 +173,7 @@
                                {
                                    "name":  "CosmosUpdater",
                                    "displayName":  "CosmosUpdater",
-                                   "state":  "Stopped",
+                                   "state":  "Running",
                                    "startMode":  "Manual",
                                    "startName":  "LocalSystem",
                                    "pathName":  "\"C:\\Program Files\\Chaos\\Cosmos\\cbservice.exe\" updater",
@@ -264,24 +264,24 @@
                        },
     "capacityVsUsage":  {
                             "cpu":  {
-                                        "percentUsed":  3,
+                                        "percentUsed":  0,
                                         "percentAvailable":  100,
-                                        "collectedAtUtc":  "2026-03-25T20:41:48.1343328Z"
+                                        "collectedAtUtc":  "2026-03-26T02:08:02.2493243Z"
                                     },
                             "ram":  {
-                                        "totalGB":  11.63,
-                                        "usedGB":  7.23,
-                                        "freeGB":  4.4,
-                                        "percentUsed":  62.21,
-                                        "percentFree":  37.79,
+                                        "totalGB":  6,
+                                        "usedGB":  4.37,
+                                        "freeGB":  1.63,
+                                        "percentUsed":  72.78,
+                                        "percentFree":  27.22,
                                         "percentAvail":  100,
-                                        "collectedAtUtc":  "2026-03-25T20:41:48.1975895Z"
+                                        "collectedAtUtc":  "2026-03-26T02:08:02.2977576Z"
                                     },
                             "diskSummary":  {
                                                 "totalGB":  399.38,
-                                                "usedGB":  103.15,
-                                                "freeGB":  296.23,
-                                                "percentUsed":  25.83,
+                                                "usedGB":  103,
+                                                "freeGB":  296.38,
+                                                "percentUsed":  25.79,
                                                 "percentAvail":  100
                                             }
                         }
