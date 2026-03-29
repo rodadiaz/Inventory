@@ -1,5 +1,5 @@
 {
-    "collectedAtUtc":  "2026-03-29T18:50:17.8870986Z",
+    "collectedAtUtc":  "2026-03-29T23:50:18.0353848Z",
     "device":  {
                    "uuid":  "E1F0ABF5-561C-4E5A-BE53-97F7443CA3D9",
                    "manufacturer":  "Microsoft Corporation",
@@ -30,10 +30,10 @@
                         "volumeName":  "",
                         "fs":  "NTFS",
                         "totalGB":  99.4,
-                        "usedGB":  95.48,
+                        "usedGB":  95.49,
                         "freeGB":  3.91,
-                        "percentUsed":  96.06,
-                        "percentFree":  3.94,
+                        "percentUsed":  96.07,
+                        "percentFree":  3.93,
                         "percentAvail":  100
                     },
                     {
@@ -264,9 +264,9 @@
                        },
     "capacityVsUsage":  {
                             "cpu":  {
-                                        "percentUsed":  9,
+                                        "percentUsed":  2,
                                         "percentAvailable":  100,
-                                        "collectedAtUtc":  "2026-03-29T18:50:20.8020487Z"
+                                        "collectedAtUtc":  "2026-03-29T23:50:20.9183512Z"
                                     },
                             "ram":  {
                                         "totalGB":  6,
@@ -275,11 +275,11 @@
                                         "percentUsed":  70.27,
                                         "percentFree":  29.73,
                                         "percentAvail":  100,
-                                        "collectedAtUtc":  "2026-03-29T18:50:20.8484500Z"
+                                        "collectedAtUtc":  "2026-03-29T23:50:20.9526974Z"
                                     },
                             "diskSummary":  {
                                                 "totalGB":  399.38,
-                                                "usedGB":  103.84,
+                                                "usedGB":  103.85,
                                                 "freeGB":  295.53,
                                                 "percentUsed":  26,
                                                 "percentAvail":  100
