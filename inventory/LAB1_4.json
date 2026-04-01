@@ -1,5 +1,5 @@
 {
-    "collectedAtUtc":  "2026-03-30T20:50:18.5893348Z",
+    "collectedAtUtc":  "2026-04-01T13:39:01.5223249Z",
     "device":  {
                    "uuid":  "E1F0ABF5-561C-4E5A-BE53-97F7443CA3D9",
                    "manufacturer":  "Microsoft Corporation",
@@ -11,7 +11,7 @@
                },
     "os":  {
                "arch":  "64 bits",
-               "lastBoot":  "25/03/2026 21:50:09",
+               "lastBoot":  "01/04/2026 7:38:43",
                "name":  "Microsoft Windows Server 2019 Standard",
                "version":  "10.0.17763",
                "build":  "17763"
@@ -30,10 +30,10 @@
                         "volumeName":  "",
                         "fs":  "NTFS",
                         "totalGB":  99.4,
-                        "usedGB":  95.85,
-                        "freeGB":  3.55,
-                        "percentUsed":  96.43,
-                        "percentFree":  3.57,
+                        "usedGB":  94.02,
+                        "freeGB":  5.37,
+                        "percentUsed":  94.59,
+                        "percentFree":  5.41,
                         "percentAvail":  100
                     },
                     {
@@ -56,16 +56,16 @@
                                    ],
                         "description":  "Microsoft Hyper-V Network Adapter #3",
                         "gateway":  [
-                                        "172.31.48.1"
+                                        "172.29.192.1"
                                     ],
                         "mac":  "00:15:5D:64:18:06",
                         "ip":  [
-                                   "172.31.53.110",
+                                   "172.29.198.162",
                                    "fe80::4f04:d651:ee4e:332a"
                                ],
                         "dhcpEnabled":  true,
                         "dns":  [
-                                    "172.31.48.1"
+                                    "172.29.192.1"
                                 ]
                     }
                 ],
@@ -77,7 +77,7 @@
                                {
                                    "name":  "NWSAPAutoWorkstationUpdateSvc",
                                    "displayName":  "SAPSetup Automatic Workstation Update Service",
-                                   "state":  "Running",
+                                   "state":  "Stopped",
                                    "startMode":  "Auto",
                                    "startName":  "LocalSystem",
                                    "pathName":  "\"C:\\Program Files (x86)\\SAP\\SAPsetup\\Setup\\Updater\\NwSapAutoWorkstationUpdateService.exe\"",
@@ -161,7 +161,7 @@
                                {
                                    "name":  "GoogleUpdaterService148.0.7730.0",
                                    "displayName":  "Servicio de herramienta de actualización de Google (GoogleUpdaterService148.0.7730.0)",
-                                   "state":  "Stopped",
+                                   "state":  "Running",
                                    "startMode":  "Auto",
                                    "startName":  "LocalSystem",
                                    "pathName":  "\"C:\\Program Files (x86)\\Google\\GoogleUpdater\\148.0.7730.0\\updater.exe\" --system --windows-service --service=update",
@@ -173,7 +173,7 @@
                                {
                                    "name":  "CosmosUpdater",
                                    "displayName":  "CosmosUpdater",
-                                   "state":  "Running",
+                                   "state":  "Stopped",
                                    "startMode":  "Manual",
                                    "startName":  "LocalSystem",
                                    "pathName":  "\"C:\\Program Files\\Chaos\\Cosmos\\cbservice.exe\" updater",
@@ -185,7 +185,7 @@
                                {
                                    "name":  "CMDBAgent",
                                    "displayName":  "CMDB Agent (Inventory -\u003e GitHub)",
-                                   "state":  "Running",
+                                   "state":  "Start Pending",
                                    "startMode":  "Auto",
                                    "startName":  "LocalSystem",
                                    "pathName":  "C:\\CMDB\\CMDBAgentService.exe C:\\CMDB\\cmdb-worker.ps1 1800000 C:\\CMDB\\cmdb-agent.log",
@@ -221,7 +221,7 @@
                                {
                                    "name":  "GoogleUpdaterInternalService148.0.7730.0",
                                    "displayName":  "Servicio interno de la herramienta de actualización de Google (GoogleUpdaterInternalService148.0.7730.0)",
-                                   "state":  "Stopped",
+                                   "state":  "Running",
                                    "startMode":  "Auto",
                                    "startName":  "LocalSystem",
                                    "pathName":  "\"C:\\Program Files (x86)\\Google\\GoogleUpdater\\148.0.7730.0\\updater.exe\" --system --windows-service --service=update-internal",
@@ -236,11 +236,11 @@
                                    "state":  "Stopped",
                                    "startMode":  "Manual",
                                    "startName":  "LocalSystem",
-                                   "pathName":  "\"C:\\Program Files\\Google\\Chrome\\Application\\146.0.7680.165\\elevation_service.exe\"",
-                                   "exePath":  "C:\\Program Files\\Google\\Chrome\\Application\\146.0.7680.165\\elevation_service.exe",
+                                   "pathName":  "\"C:\\Program Files\\Google\\Chrome\\Application\\146.0.7680.167\\elevation_service.exe\"",
+                                   "exePath":  "C:\\Program Files\\Google\\Chrome\\Application\\146.0.7680.167\\elevation_service.exe",
                                    "company":  "Google LLC",
                                    "product":  "Google Chrome",
-                                   "version":  "146.0.7680.165"
+                                   "version":  "146.0.7680.167"
                                },
                                {
                                    "name":  "FA_Scheduler",
@@ -264,24 +264,24 @@
                        },
     "capacityVsUsage":  {
                             "cpu":  {
-                                        "percentUsed":  0,
+                                        "percentUsed":  100,
                                         "percentAvailable":  100,
-                                        "collectedAtUtc":  "2026-03-30T20:50:21.6455276Z"
+                                        "collectedAtUtc":  "2026-04-01T13:39:10.9915894Z"
                                     },
                             "ram":  {
                                         "totalGB":  6,
-                                        "usedGB":  4.35,
-                                        "freeGB":  1.65,
-                                        "percentUsed":  72.5,
-                                        "percentFree":  27.5,
+                                        "usedGB":  3.1,
+                                        "freeGB":  2.9,
+                                        "percentUsed":  51.61,
+                                        "percentFree":  48.39,
                                         "percentAvail":  100,
-                                        "collectedAtUtc":  "2026-03-30T20:50:21.7123412Z"
+                                        "collectedAtUtc":  "2026-04-01T13:39:11.0456739Z"
                                     },
                             "diskSummary":  {
                                                 "totalGB":  399.38,
-                                                "usedGB":  104.21,
-                                                "freeGB":  295.17,
-                                                "percentUsed":  26.09,
+                                                "usedGB":  102.38,
+                                                "freeGB":  296.99,
+                                                "percentUsed":  25.63,
                                                 "percentAvail":  100
                                             }
                         }
