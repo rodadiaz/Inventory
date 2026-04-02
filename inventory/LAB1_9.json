@@ -1,5 +1,5 @@
 {
-    "collectedAtUtc":  "2026-04-02T01:43:52.2353358Z",
+    "collectedAtUtc":  "2026-04-02T06:43:45.8042017Z",
     "device":  {
                    "uuid":  "E1F0ABF5-561C-4E5A-BE53-97F7443CA3D9",
                    "manufacturer":  "Microsoft Corporation",
@@ -30,10 +30,10 @@
                         "volumeName":  "",
                         "fs":  "NTFS",
                         "totalGB":  99.4,
-                        "usedGB":  93.93,
-                        "freeGB":  5.47,
-                        "percentUsed":  94.5,
-                        "percentFree":  5.5,
+                        "usedGB":  94.11,
+                        "freeGB":  5.28,
+                        "percentUsed":  94.68,
+                        "percentFree":  5.32,
                         "percentAvail":  100
                     },
                     {
@@ -264,24 +264,24 @@
                        },
     "capacityVsUsage":  {
                             "cpu":  {
-                                        "percentUsed":  4,
+                                        "percentUsed":  0,
                                         "percentAvailable":  100,
-                                        "collectedAtUtc":  "2026-04-02T01:43:58.3180529Z"
+                                        "collectedAtUtc":  "2026-04-02T06:43:48.8221914Z"
                                     },
                             "ram":  {
                                         "totalGB":  6,
-                                        "usedGB":  4.59,
-                                        "freeGB":  1.41,
-                                        "percentUsed":  76.47,
-                                        "percentFree":  23.53,
+                                        "usedGB":  4.69,
+                                        "freeGB":  1.31,
+                                        "percentUsed":  78.2,
+                                        "percentFree":  21.8,
                                         "percentAvail":  100,
-                                        "collectedAtUtc":  "2026-04-02T01:43:58.4284661Z"
+                                        "collectedAtUtc":  "2026-04-02T06:43:48.8793510Z"
                                     },
                             "diskSummary":  {
                                                 "totalGB":  399.38,
-                                                "usedGB":  102.29,
-                                                "freeGB":  297.09,
-                                                "percentUsed":  25.61,
+                                                "usedGB":  102.47,
+                                                "freeGB":  296.9,
+                                                "percentUsed":  25.66,
                                                 "percentAvail":  100
                                             }
                         }
