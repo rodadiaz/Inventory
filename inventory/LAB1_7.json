@@ -1,5 +1,5 @@
 {
-    "collectedAtUtc":  "2026-04-06T00:04:10.3563503Z",
+    "collectedAtUtc":  "2026-04-06T19:54:16.6494699Z",
     "device":  {
                    "uuid":  "E1F0ABF5-561C-4E5A-BE53-97F7443CA3D9",
                    "manufacturer":  "Microsoft Corporation",
@@ -11,7 +11,7 @@
                },
     "os":  {
                "arch":  "64 bits",
-               "lastBoot":  "03/04/2026 9:03:57",
+               "lastBoot":  "06/04/2026 10:24:06",
                "name":  "Microsoft Windows Server 2019 Standard",
                "version":  "10.0.17763",
                "build":  "17763"
@@ -30,10 +30,10 @@
                         "volumeName":  "",
                         "fs":  "NTFS",
                         "totalGB":  99.4,
-                        "usedGB":  94.12,
-                        "freeGB":  5.28,
-                        "percentUsed":  94.69,
-                        "percentFree":  5.31,
+                        "usedGB":  93.6,
+                        "freeGB":  5.8,
+                        "percentUsed":  94.17,
+                        "percentFree":  5.83,
                         "percentAvail":  100
                     },
                     {
@@ -79,7 +79,7 @@
                                     ],
                         "mac":  "00:FF:EB:CD:F9:4D",
                         "ip":  [
-                                   "192.168.115.4",
+                                   "192.168.115.8",
                                    "fe80::22a1:9755:d29:5d27"
                                ],
                         "dhcpEnabled":  false,
@@ -192,7 +192,7 @@
                                {
                                    "name":  "CosmosUpdater",
                                    "displayName":  "CosmosUpdater",
-                                   "state":  "Stopped",
+                                   "state":  "Running",
                                    "startMode":  "Manual",
                                    "startName":  "LocalSystem",
                                    "pathName":  "\"C:\\Program Files\\Chaos\\Cosmos\\cbservice.exe\" updater",
@@ -285,22 +285,22 @@
                             "cpu":  {
                                         "percentUsed":  0,
                                         "percentAvailable":  100,
-                                        "collectedAtUtc":  "2026-04-06T00:04:13.3583346Z"
+                                        "collectedAtUtc":  "2026-04-06T19:54:20.3850935Z"
                                     },
                             "ram":  {
                                         "totalGB":  6,
-                                        "usedGB":  4.02,
-                                        "freeGB":  1.98,
-                                        "percentUsed":  67.07,
-                                        "percentFree":  32.93,
+                                        "usedGB":  4.89,
+                                        "freeGB":  1.11,
+                                        "percentUsed":  81.43,
+                                        "percentFree":  18.57,
                                         "percentAvail":  100,
-                                        "collectedAtUtc":  "2026-04-06T00:04:13.4143476Z"
+                                        "collectedAtUtc":  "2026-04-06T19:54:20.4587382Z"
                                     },
                             "diskSummary":  {
                                                 "totalGB":  399.38,
-                                                "usedGB":  102.48,
-                                                "freeGB":  296.9,
-                                                "percentUsed":  25.66,
+                                                "usedGB":  101.96,
+                                                "freeGB":  297.42,
+                                                "percentUsed":  25.53,
                                                 "percentAvail":  100
                                             }
                         }
