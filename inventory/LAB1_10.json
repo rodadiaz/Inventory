@@ -1,5 +1,5 @@
 {
-    "collectedAtUtc":  "2026-04-08T01:11:50.8660258Z",
+    "collectedAtUtc":  "2026-04-08T06:11:46.7752689Z",
     "device":  {
                    "uuid":  "E1F0ABF5-561C-4E5A-BE53-97F7443CA3D9",
                    "manufacturer":  "Microsoft Corporation",
@@ -30,10 +30,10 @@
                         "volumeName":  "",
                         "fs":  "NTFS",
                         "totalGB":  99.4,
-                        "usedGB":  93.52,
-                        "freeGB":  5.88,
-                        "percentUsed":  94.09,
-                        "percentFree":  5.91,
+                        "usedGB":  94.17,
+                        "freeGB":  5.23,
+                        "percentUsed":  94.74,
+                        "percentFree":  5.26,
                         "percentAvail":  100
                     },
                     {
@@ -77,7 +77,7 @@
                                {
                                    "name":  "NWSAPAutoWorkstationUpdateSvc",
                                    "displayName":  "SAPSetup Automatic Workstation Update Service",
-                                   "state":  "Stopped",
+                                   "state":  "Running",
                                    "startMode":  "Auto",
                                    "startName":  "LocalSystem",
                                    "pathName":  "\"C:\\Program Files (x86)\\SAP\\SAPsetup\\Setup\\Updater\\NwSapAutoWorkstationUpdateService.exe\"",
@@ -161,7 +161,7 @@
                                {
                                    "name":  "GoogleUpdaterService148.0.7730.0",
                                    "displayName":  "Servicio de herramienta de actualización de Google (GoogleUpdaterService148.0.7730.0)",
-                                   "state":  "Running",
+                                   "state":  "Stopped",
                                    "startMode":  "Auto",
                                    "startName":  "LocalSystem",
                                    "pathName":  "\"C:\\Program Files (x86)\\Google\\GoogleUpdater\\148.0.7730.0\\updater.exe\" --system --windows-service --service=update",
@@ -173,7 +173,7 @@
                                {
                                    "name":  "CosmosUpdater",
                                    "displayName":  "CosmosUpdater",
-                                   "state":  "Stopped",
+                                   "state":  "Running",
                                    "startMode":  "Manual",
                                    "startName":  "LocalSystem",
                                    "pathName":  "\"C:\\Program Files\\Chaos\\Cosmos\\cbservice.exe\" updater",
@@ -185,7 +185,7 @@
                                {
                                    "name":  "CMDBAgent",
                                    "displayName":  "CMDB Agent (Inventory -\u003e GitHub)",
-                                   "state":  "Start Pending",
+                                   "state":  "Running",
                                    "startMode":  "Auto",
                                    "startName":  "LocalSystem",
                                    "pathName":  "C:\\CMDB\\CMDBAgentService.exe C:\\CMDB\\cmdb-worker.ps1 1800000 C:\\CMDB\\cmdb-agent.log",
@@ -221,7 +221,7 @@
                                {
                                    "name":  "GoogleUpdaterInternalService148.0.7730.0",
                                    "displayName":  "Servicio interno de la herramienta de actualización de Google (GoogleUpdaterInternalService148.0.7730.0)",
-                                   "state":  "Running",
+                                   "state":  "Stopped",
                                    "startMode":  "Auto",
                                    "startName":  "LocalSystem",
                                    "pathName":  "\"C:\\Program Files (x86)\\Google\\GoogleUpdater\\148.0.7730.0\\updater.exe\" --system --windows-service --service=update-internal",
@@ -236,11 +236,11 @@
                                    "state":  "Stopped",
                                    "startMode":  "Manual",
                                    "startName":  "LocalSystem",
-                                   "pathName":  "\"C:\\Program Files\\Google\\Chrome\\Application\\146.0.7680.178\\elevation_service.exe\"",
-                                   "exePath":  "C:\\Program Files\\Google\\Chrome\\Application\\146.0.7680.178\\elevation_service.exe",
+                                   "pathName":  "\"C:\\Program Files\\Google\\Chrome\\Application\\146.0.7680.180\\elevation_service.exe\"",
+                                   "exePath":  "C:\\Program Files\\Google\\Chrome\\Application\\146.0.7680.180\\elevation_service.exe",
                                    "company":  "Google LLC",
                                    "product":  "Google Chrome",
-                                   "version":  "146.0.7680.178"
+                                   "version":  "146.0.7680.180"
                                },
                                {
                                    "name":  "FA_Scheduler",
@@ -264,24 +264,24 @@
                        },
     "capacityVsUsage":  {
                             "cpu":  {
-                                        "percentUsed":  82,
+                                        "percentUsed":  1,
                                         "percentAvailable":  100,
-                                        "collectedAtUtc":  "2026-04-08T01:12:00.5066496Z"
+                                        "collectedAtUtc":  "2026-04-08T06:11:49.7378121Z"
                                     },
                             "ram":  {
                                         "totalGB":  6,
-                                        "usedGB":  2.65,
-                                        "freeGB":  3.35,
-                                        "percentUsed":  44.11,
-                                        "percentFree":  55.89,
+                                        "usedGB":  3.75,
+                                        "freeGB":  2.25,
+                                        "percentUsed":  62.52,
+                                        "percentFree":  37.48,
                                         "percentAvail":  100,
-                                        "collectedAtUtc":  "2026-04-08T01:12:00.5535722Z"
+                                        "collectedAtUtc":  "2026-04-08T06:11:49.7676602Z"
                                     },
                             "diskSummary":  {
                                                 "totalGB":  399.38,
-                                                "usedGB":  101.88,
-                                                "freeGB":  297.5,
-                                                "percentUsed":  25.51,
+                                                "usedGB":  102.53,
+                                                "freeGB":  296.85,
+                                                "percentUsed":  25.67,
                                                 "percentAvail":  100
                                             }
                         }
