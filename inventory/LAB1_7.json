@@ -1,5 +1,5 @@
 {
-    "collectedAtUtc":  "2026-04-07T00:54:18.7373210Z",
+    "collectedAtUtc":  "2026-04-08T04:41:46.7147829Z",
     "device":  {
                    "uuid":  "E1F0ABF5-561C-4E5A-BE53-97F7443CA3D9",
                    "manufacturer":  "Microsoft Corporation",
@@ -11,7 +11,7 @@
                },
     "os":  {
                "arch":  "64 bits",
-               "lastBoot":  "06/04/2026 10:24:06",
+               "lastBoot":  "07/04/2026 19:11:38",
                "name":  "Microsoft Windows Server 2019 Standard",
                "version":  "10.0.17763",
                "build":  "17763"
@@ -30,10 +30,10 @@
                         "volumeName":  "",
                         "fs":  "NTFS",
                         "totalGB":  99.4,
-                        "usedGB":  93.86,
-                        "freeGB":  5.54,
-                        "percentUsed":  94.43,
-                        "percentFree":  5.57,
+                        "usedGB":  94.17,
+                        "freeGB":  5.23,
+                        "percentUsed":  94.74,
+                        "percentFree":  5.26,
                         "percentAvail":  100
                     },
                     {
@@ -66,25 +66,6 @@
                         "dhcpEnabled":  true,
                         "dns":  [
                                     "172.29.192.1"
-                                ]
-                    },
-                    {
-                        "subnet":  [
-                                       "255.255.255.128",
-                                       "64"
-                                   ],
-                        "description":  "TAP-Windows Adapter V9 for OpenVPN Connect",
-                        "gateway":  [
-                                        null
-                                    ],
-                        "mac":  "00:FF:EB:CD:F9:4D",
-                        "ip":  [
-                                   "192.168.115.3",
-                                   "fe80::22a1:9755:d29:5d27"
-                               ],
-                        "dhcpEnabled":  false,
-                        "dns":  [
-                                    null
                                 ]
                     }
                 ],
@@ -255,11 +236,11 @@
                                    "state":  "Stopped",
                                    "startMode":  "Manual",
                                    "startName":  "LocalSystem",
-                                   "pathName":  "\"C:\\Program Files\\Google\\Chrome\\Application\\146.0.7680.178\\elevation_service.exe\"",
-                                   "exePath":  "C:\\Program Files\\Google\\Chrome\\Application\\146.0.7680.178\\elevation_service.exe",
+                                   "pathName":  "\"C:\\Program Files\\Google\\Chrome\\Application\\146.0.7680.180\\elevation_service.exe\"",
+                                   "exePath":  "C:\\Program Files\\Google\\Chrome\\Application\\146.0.7680.180\\elevation_service.exe",
                                    "company":  "Google LLC",
                                    "product":  "Google Chrome",
-                                   "version":  "146.0.7680.178"
+                                   "version":  "146.0.7680.180"
                                },
                                {
                                    "name":  "FA_Scheduler",
@@ -283,24 +264,24 @@
                        },
     "capacityVsUsage":  {
                             "cpu":  {
-                                        "percentUsed":  8,
+                                        "percentUsed":  7,
                                         "percentAvailable":  100,
-                                        "collectedAtUtc":  "2026-04-07T00:54:23.3364705Z"
+                                        "collectedAtUtc":  "2026-04-08T04:41:49.6764363Z"
                                     },
                             "ram":  {
                                         "totalGB":  6,
-                                        "usedGB":  4.87,
-                                        "freeGB":  1.13,
-                                        "percentUsed":  81.12,
-                                        "percentFree":  18.88,
+                                        "usedGB":  3.75,
+                                        "freeGB":  2.25,
+                                        "percentUsed":  62.52,
+                                        "percentFree":  37.48,
                                         "percentAvail":  100,
-                                        "collectedAtUtc":  "2026-04-07T00:54:23.4026919Z"
+                                        "collectedAtUtc":  "2026-04-08T04:41:49.7309171Z"
                                     },
                             "diskSummary":  {
                                                 "totalGB":  399.38,
-                                                "usedGB":  102.22,
-                                                "freeGB":  297.16,
-                                                "percentUsed":  25.59,
+                                                "usedGB":  102.53,
+                                                "freeGB":  296.85,
+                                                "percentUsed":  25.67,
                                                 "percentAvail":  100
                                             }
                         }
