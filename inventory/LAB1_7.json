@@ -1,5 +1,5 @@
 {
-    "collectedAtUtc":  "2026-04-11T17:41:48.2541855Z",
+    "collectedAtUtc":  "2026-04-11T22:41:48.4361637Z",
     "device":  {
                    "uuid":  "E1F0ABF5-561C-4E5A-BE53-97F7443CA3D9",
                    "manufacturer":  "Microsoft Corporation",
@@ -283,18 +283,18 @@
                        },
     "capacityVsUsage":  {
                             "cpu":  {
-                                        "percentUsed":  5,
+                                        "percentUsed":  8,
                                         "percentAvailable":  100,
-                                        "collectedAtUtc":  "2026-04-11T17:41:51.2871425Z"
+                                        "collectedAtUtc":  "2026-04-11T22:41:51.4167669Z"
                                     },
                             "ram":  {
                                         "totalGB":  6,
-                                        "usedGB":  4.77,
-                                        "freeGB":  1.23,
-                                        "percentUsed":  79.57,
-                                        "percentFree":  20.43,
+                                        "usedGB":  4.79,
+                                        "freeGB":  1.21,
+                                        "percentUsed":  79.85,
+                                        "percentFree":  20.15,
                                         "percentAvail":  100,
-                                        "collectedAtUtc":  "2026-04-11T17:41:51.3403217Z"
+                                        "collectedAtUtc":  "2026-04-11T22:41:51.4612984Z"
                                     },
                             "diskSummary":  {
                                                 "totalGB":  399.38,
