@@ -1,5 +1,5 @@
 {
-    "collectedAtUtc":  "2026-04-16T06:41:24.3079062Z",
+    "collectedAtUtc":  "2026-04-16T11:41:24.2816186Z",
     "device":  {
                    "uuid":  "E1F0ABF5-561C-4E5A-BE53-97F7443CA3D9",
                    "manufacturer":  "Microsoft Corporation",
@@ -31,7 +31,7 @@
                         "fs":  "NTFS",
                         "totalGB":  99.4,
                         "usedGB":  92.09,
-                        "freeGB":  7.3,
+                        "freeGB":  7.31,
                         "percentUsed":  92.65,
                         "percentFree":  7.35,
                         "percentAvail":  100
@@ -264,23 +264,23 @@
                        },
     "capacityVsUsage":  {
                             "cpu":  {
-                                        "percentUsed":  2,
+                                        "percentUsed":  5,
                                         "percentAvailable":  100,
-                                        "collectedAtUtc":  "2026-04-16T06:41:27.2158658Z"
+                                        "collectedAtUtc":  "2026-04-16T11:41:27.2263633Z"
                                     },
                             "ram":  {
                                         "totalGB":  6,
-                                        "usedGB":  4.03,
-                                        "freeGB":  1.97,
-                                        "percentUsed":  67.18,
-                                        "percentFree":  32.82,
+                                        "usedGB":  4.07,
+                                        "freeGB":  1.93,
+                                        "percentUsed":  67.9,
+                                        "percentFree":  32.1,
                                         "percentAvail":  100,
-                                        "collectedAtUtc":  "2026-04-16T06:41:27.2625372Z"
+                                        "collectedAtUtc":  "2026-04-16T11:41:27.2819480Z"
                                     },
                             "diskSummary":  {
                                                 "totalGB":  399.38,
                                                 "usedGB":  100.45,
-                                                "freeGB":  298.92,
+                                                "freeGB":  298.93,
                                                 "percentUsed":  25.15,
                                                 "percentAvail":  100
                                             }
