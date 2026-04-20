@@ -1,5 +1,5 @@
 {
-    "collectedAtUtc":  "2026-04-20T00:11:27.0251450Z",
+    "collectedAtUtc":  "2026-04-20T17:56:05.0495401Z",
     "device":  {
                    "uuid":  "E1F0ABF5-561C-4E5A-BE53-97F7443CA3D9",
                    "manufacturer":  "Microsoft Corporation",
@@ -11,7 +11,7 @@
                },
     "os":  {
                "arch":  "64 bits",
-               "lastBoot":  "14/04/2026 17:41:02",
+               "lastBoot":  "20/04/2026 10:25:58",
                "name":  "Microsoft Windows Server 2019 Standard",
                "version":  "10.0.17763",
                "build":  "17763"
@@ -30,10 +30,10 @@
                         "volumeName":  "",
                         "fs":  "NTFS",
                         "totalGB":  99.4,
-                        "usedGB":  92.12,
-                        "freeGB":  7.28,
-                        "percentUsed":  92.68,
-                        "percentFree":  7.32,
+                        "usedGB":  91.88,
+                        "freeGB":  7.51,
+                        "percentUsed":  92.44,
+                        "percentFree":  7.56,
                         "percentAvail":  100
                     },
                     {
@@ -56,16 +56,16 @@
                                    ],
                         "description":  "Microsoft Hyper-V Network Adapter #3",
                         "gateway":  [
-                                        "172.27.80.1"
+                                        "172.29.0.1"
                                     ],
                         "mac":  "00:15:5D:64:18:06",
                         "ip":  [
-                                   "172.27.88.116",
+                                   "172.29.4.92",
                                    "fe80::4f04:d651:ee4e:332a"
                                ],
                         "dhcpEnabled":  true,
                         "dns":  [
-                                    "172.27.80.1"
+                                    "172.29.0.1"
                                 ]
                     }
                 ],
@@ -264,24 +264,24 @@
                        },
     "capacityVsUsage":  {
                             "cpu":  {
-                                        "percentUsed":  4,
+                                        "percentUsed":  0,
                                         "percentAvailable":  100,
-                                        "collectedAtUtc":  "2026-04-20T00:11:30.8392726Z"
+                                        "collectedAtUtc":  "2026-04-20T17:56:08.0471785Z"
                                     },
                             "ram":  {
                                         "totalGB":  6,
-                                        "usedGB":  3.79,
-                                        "freeGB":  2.21,
-                                        "percentUsed":  63.11,
-                                        "percentFree":  36.89,
+                                        "usedGB":  4.65,
+                                        "freeGB":  1.35,
+                                        "percentUsed":  77.47,
+                                        "percentFree":  22.53,
                                         "percentAvail":  100,
-                                        "collectedAtUtc":  "2026-04-20T00:11:30.8915813Z"
+                                        "collectedAtUtc":  "2026-04-20T17:56:08.0785351Z"
                                     },
                             "diskSummary":  {
                                                 "totalGB":  399.38,
-                                                "usedGB":  100.48,
-                                                "freeGB":  298.9,
-                                                "percentUsed":  25.16,
+                                                "usedGB":  100.24,
+                                                "freeGB":  299.13,
+                                                "percentUsed":  25.1,
                                                 "percentAvail":  100
                                             }
                         }
