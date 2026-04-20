@@ -1,5 +1,5 @@
 {
-    "collectedAtUtc":  "2026-04-19T22:41:25.7049376Z",
+    "collectedAtUtc":  "2026-04-20T16:26:07.9853338Z",
     "device":  {
                    "uuid":  "E1F0ABF5-561C-4E5A-BE53-97F7443CA3D9",
                    "manufacturer":  "Microsoft Corporation",
@@ -11,7 +11,7 @@
                },
     "os":  {
                "arch":  "64 bits",
-               "lastBoot":  "14/04/2026 17:41:02",
+               "lastBoot":  "20/04/2026 10:25:58",
                "name":  "Microsoft Windows Server 2019 Standard",
                "version":  "10.0.17763",
                "build":  "17763"
@@ -30,10 +30,10 @@
                         "volumeName":  "",
                         "fs":  "NTFS",
                         "totalGB":  99.4,
-                        "usedGB":  92.13,
-                        "freeGB":  7.27,
-                        "percentUsed":  92.69,
-                        "percentFree":  7.31,
+                        "usedGB":  91.98,
+                        "freeGB":  7.42,
+                        "percentUsed":  92.53,
+                        "percentFree":  7.47,
                         "percentAvail":  100
                     },
                     {
@@ -56,16 +56,16 @@
                                    ],
                         "description":  "Microsoft Hyper-V Network Adapter #3",
                         "gateway":  [
-                                        "172.27.80.1"
+                                        "172.29.0.1"
                                     ],
                         "mac":  "00:15:5D:64:18:06",
                         "ip":  [
-                                   "172.27.88.116",
+                                   "172.29.4.92",
                                    "fe80::4f04:d651:ee4e:332a"
                                ],
                         "dhcpEnabled":  true,
                         "dns":  [
-                                    "172.27.80.1"
+                                    "172.29.0.1"
                                 ]
                     }
                 ],
@@ -77,7 +77,7 @@
                                {
                                    "name":  "NWSAPAutoWorkstationUpdateSvc",
                                    "displayName":  "SAPSetup Automatic Workstation Update Service",
-                                   "state":  "Running",
+                                   "state":  "Stopped",
                                    "startMode":  "Auto",
                                    "startName":  "LocalSystem",
                                    "pathName":  "\"C:\\Program Files (x86)\\SAP\\SAPsetup\\Setup\\Updater\\NwSapAutoWorkstationUpdateService.exe\"",
@@ -161,7 +161,7 @@
                                {
                                    "name":  "GoogleUpdaterService148.0.7730.0",
                                    "displayName":  "Servicio de herramienta de actualización de Google (GoogleUpdaterService148.0.7730.0)",
-                                   "state":  "Stopped",
+                                   "state":  "Running",
                                    "startMode":  "Auto",
                                    "startName":  "LocalSystem",
                                    "pathName":  "\"C:\\Program Files (x86)\\Google\\GoogleUpdater\\148.0.7730.0\\updater.exe\" --system --windows-service --service=update",
@@ -173,7 +173,7 @@
                                {
                                    "name":  "CosmosUpdater",
                                    "displayName":  "CosmosUpdater",
-                                   "state":  "Running",
+                                   "state":  "Stopped",
                                    "startMode":  "Manual",
                                    "startName":  "LocalSystem",
                                    "pathName":  "\"C:\\Program Files\\Chaos\\Cosmos\\cbservice.exe\" updater",
@@ -185,7 +185,7 @@
                                {
                                    "name":  "CMDBAgent",
                                    "displayName":  "CMDB Agent (Inventory -\u003e GitHub)",
-                                   "state":  "Running",
+                                   "state":  "Start Pending",
                                    "startMode":  "Auto",
                                    "startName":  "LocalSystem",
                                    "pathName":  "C:\\CMDB\\CMDBAgentService.exe C:\\CMDB\\cmdb-worker.ps1 1800000 C:\\CMDB\\cmdb-agent.log",
@@ -221,7 +221,7 @@
                                {
                                    "name":  "GoogleUpdaterInternalService148.0.7730.0",
                                    "displayName":  "Servicio interno de la herramienta de actualización de Google (GoogleUpdaterInternalService148.0.7730.0)",
-                                   "state":  "Stopped",
+                                   "state":  "Running",
                                    "startMode":  "Auto",
                                    "startName":  "LocalSystem",
                                    "pathName":  "\"C:\\Program Files (x86)\\Google\\GoogleUpdater\\148.0.7730.0\\updater.exe\" --system --windows-service --service=update-internal",
@@ -264,24 +264,24 @@
                        },
     "capacityVsUsage":  {
                             "cpu":  {
-                                        "percentUsed":  0,
+                                        "percentUsed":  47,
                                         "percentAvailable":  100,
-                                        "collectedAtUtc":  "2026-04-19T22:41:28.7524193Z"
+                                        "collectedAtUtc":  "2026-04-20T16:26:14.0166118Z"
                                     },
                             "ram":  {
                                         "totalGB":  6,
-                                        "usedGB":  3.87,
-                                        "freeGB":  2.13,
-                                        "percentUsed":  64.43,
-                                        "percentFree":  35.57,
+                                        "usedGB":  2.08,
+                                        "freeGB":  3.92,
+                                        "percentUsed":  34.61,
+                                        "percentFree":  65.39,
                                         "percentAvail":  100,
-                                        "collectedAtUtc":  "2026-04-19T22:41:28.8066973Z"
+                                        "collectedAtUtc":  "2026-04-20T16:26:14.0790814Z"
                                     },
                             "diskSummary":  {
                                                 "totalGB":  399.38,
-                                                "usedGB":  100.49,
-                                                "freeGB":  298.89,
-                                                "percentUsed":  25.16,
+                                                "usedGB":  100.34,
+                                                "freeGB":  299.04,
+                                                "percentUsed":  25.12,
                                                 "percentAvail":  100
                                             }
                         }
