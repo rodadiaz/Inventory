@@ -1,5 +1,5 @@
 {
-    "collectedAtUtc":  "2026-04-20T02:11:26.9023875Z",
+    "collectedAtUtc":  "2026-04-20T19:56:05.2787001Z",
     "device":  {
                    "uuid":  "E1F0ABF5-561C-4E5A-BE53-97F7443CA3D9",
                    "manufacturer":  "Microsoft Corporation",
@@ -11,7 +11,7 @@
                },
     "os":  {
                "arch":  "64 bits",
-               "lastBoot":  "14/04/2026 17:41:02",
+               "lastBoot":  "20/04/2026 10:25:58",
                "name":  "Microsoft Windows Server 2019 Standard",
                "version":  "10.0.17763",
                "build":  "17763"
@@ -30,10 +30,10 @@
                         "volumeName":  "",
                         "fs":  "NTFS",
                         "totalGB":  99.4,
-                        "usedGB":  92.12,
-                        "freeGB":  7.28,
-                        "percentUsed":  92.67,
-                        "percentFree":  7.33,
+                        "usedGB":  91.91,
+                        "freeGB":  7.49,
+                        "percentUsed":  92.47,
+                        "percentFree":  7.53,
                         "percentAvail":  100
                     },
                     {
@@ -56,35 +56,16 @@
                                    ],
                         "description":  "Microsoft Hyper-V Network Adapter #3",
                         "gateway":  [
-                                        "172.27.80.1"
+                                        "172.29.0.1"
                                     ],
                         "mac":  "00:15:5D:64:18:06",
                         "ip":  [
-                                   "172.27.88.116",
+                                   "172.29.4.92",
                                    "fe80::4f04:d651:ee4e:332a"
                                ],
                         "dhcpEnabled":  true,
                         "dns":  [
-                                    "172.27.80.1"
-                                ]
-                    },
-                    {
-                        "subnet":  [
-                                       "255.255.255.128",
-                                       "64"
-                                   ],
-                        "description":  "TAP-Windows Adapter V9 for OpenVPN Connect",
-                        "gateway":  [
-                                        null
-                                    ],
-                        "mac":  "00:FF:EB:CD:F9:4D",
-                        "ip":  [
-                                   "192.168.115.4",
-                                   "fe80::22a1:9755:d29:5d27"
-                               ],
-                        "dhcpEnabled":  false,
-                        "dns":  [
-                                    null
+                                    "172.29.0.1"
                                 ]
                     }
                 ],
@@ -285,22 +266,22 @@
                             "cpu":  {
                                         "percentUsed":  0,
                                         "percentAvailable":  100,
-                                        "collectedAtUtc":  "2026-04-20T02:11:30.3226718Z"
+                                        "collectedAtUtc":  "2026-04-20T19:56:08.2281694Z"
                                     },
                             "ram":  {
                                         "totalGB":  6,
-                                        "usedGB":  4.37,
-                                        "freeGB":  1.63,
-                                        "percentUsed":  72.85,
-                                        "percentFree":  27.15,
+                                        "usedGB":  4.19,
+                                        "freeGB":  1.81,
+                                        "percentUsed":  69.77,
+                                        "percentFree":  30.23,
                                         "percentAvail":  100,
-                                        "collectedAtUtc":  "2026-04-20T02:11:30.3689196Z"
+                                        "collectedAtUtc":  "2026-04-20T19:56:08.2753178Z"
                                     },
                             "diskSummary":  {
                                                 "totalGB":  399.38,
-                                                "usedGB":  100.48,
-                                                "freeGB":  298.9,
-                                                "percentUsed":  25.16,
+                                                "usedGB":  100.27,
+                                                "freeGB":  299.11,
+                                                "percentUsed":  25.11,
                                                 "percentAvail":  100
                                             }
                         }
