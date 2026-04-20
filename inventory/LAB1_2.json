@@ -1,5 +1,5 @@
 {
-    "collectedAtUtc":  "2026-04-20T16:26:07.9853338Z",
+    "collectedAtUtc":  "2026-04-20T21:26:05.2823201Z",
     "device":  {
                    "uuid":  "E1F0ABF5-561C-4E5A-BE53-97F7443CA3D9",
                    "manufacturer":  "Microsoft Corporation",
@@ -30,10 +30,10 @@
                         "volumeName":  "",
                         "fs":  "NTFS",
                         "totalGB":  99.4,
-                        "usedGB":  91.98,
-                        "freeGB":  7.42,
-                        "percentUsed":  92.53,
-                        "percentFree":  7.47,
+                        "usedGB":  91.89,
+                        "freeGB":  7.51,
+                        "percentUsed":  92.45,
+                        "percentFree":  7.55,
                         "percentAvail":  100
                     },
                     {
@@ -77,7 +77,7 @@
                                {
                                    "name":  "NWSAPAutoWorkstationUpdateSvc",
                                    "displayName":  "SAPSetup Automatic Workstation Update Service",
-                                   "state":  "Stopped",
+                                   "state":  "Running",
                                    "startMode":  "Auto",
                                    "startName":  "LocalSystem",
                                    "pathName":  "\"C:\\Program Files (x86)\\SAP\\SAPsetup\\Setup\\Updater\\NwSapAutoWorkstationUpdateService.exe\"",
@@ -161,7 +161,7 @@
                                {
                                    "name":  "GoogleUpdaterService148.0.7730.0",
                                    "displayName":  "Servicio de herramienta de actualización de Google (GoogleUpdaterService148.0.7730.0)",
-                                   "state":  "Running",
+                                   "state":  "Stopped",
                                    "startMode":  "Auto",
                                    "startName":  "LocalSystem",
                                    "pathName":  "\"C:\\Program Files (x86)\\Google\\GoogleUpdater\\148.0.7730.0\\updater.exe\" --system --windows-service --service=update",
@@ -173,7 +173,7 @@
                                {
                                    "name":  "CosmosUpdater",
                                    "displayName":  "CosmosUpdater",
-                                   "state":  "Stopped",
+                                   "state":  "Running",
                                    "startMode":  "Manual",
                                    "startName":  "LocalSystem",
                                    "pathName":  "\"C:\\Program Files\\Chaos\\Cosmos\\cbservice.exe\" updater",
@@ -185,7 +185,7 @@
                                {
                                    "name":  "CMDBAgent",
                                    "displayName":  "CMDB Agent (Inventory -\u003e GitHub)",
-                                   "state":  "Start Pending",
+                                   "state":  "Running",
                                    "startMode":  "Auto",
                                    "startName":  "LocalSystem",
                                    "pathName":  "C:\\CMDB\\CMDBAgentService.exe C:\\CMDB\\cmdb-worker.ps1 1800000 C:\\CMDB\\cmdb-agent.log",
@@ -221,7 +221,7 @@
                                {
                                    "name":  "GoogleUpdaterInternalService148.0.7730.0",
                                    "displayName":  "Servicio interno de la herramienta de actualización de Google (GoogleUpdaterInternalService148.0.7730.0)",
-                                   "state":  "Running",
+                                   "state":  "Stopped",
                                    "startMode":  "Auto",
                                    "startName":  "LocalSystem",
                                    "pathName":  "\"C:\\Program Files (x86)\\Google\\GoogleUpdater\\148.0.7730.0\\updater.exe\" --system --windows-service --service=update-internal",
@@ -264,24 +264,24 @@
                        },
     "capacityVsUsage":  {
                             "cpu":  {
-                                        "percentUsed":  47,
+                                        "percentUsed":  9,
                                         "percentAvailable":  100,
-                                        "collectedAtUtc":  "2026-04-20T16:26:14.0166118Z"
+                                        "collectedAtUtc":  "2026-04-20T21:26:08.2835199Z"
                                     },
                             "ram":  {
                                         "totalGB":  6,
-                                        "usedGB":  2.08,
-                                        "freeGB":  3.92,
-                                        "percentUsed":  34.61,
-                                        "percentFree":  65.39,
+                                        "usedGB":  4.24,
+                                        "freeGB":  1.76,
+                                        "percentUsed":  70.73,
+                                        "percentFree":  29.27,
                                         "percentAvail":  100,
-                                        "collectedAtUtc":  "2026-04-20T16:26:14.0790814Z"
+                                        "collectedAtUtc":  "2026-04-20T21:26:08.3234420Z"
                                     },
                             "diskSummary":  {
                                                 "totalGB":  399.38,
-                                                "usedGB":  100.34,
-                                                "freeGB":  299.04,
-                                                "percentUsed":  25.12,
+                                                "usedGB":  100.25,
+                                                "freeGB":  299.13,
+                                                "percentUsed":  25.1,
                                                 "percentAvail":  100
                                             }
                         }
